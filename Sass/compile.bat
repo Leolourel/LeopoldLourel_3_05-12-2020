@@ -1,0 +1,1 @@
+sass/ohmyfood.scss ../Css/ohmyfood.css --style=compressed --no-source-map

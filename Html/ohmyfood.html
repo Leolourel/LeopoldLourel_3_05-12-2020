@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-
+        <!--Effet de rognage en css (overflow: ...)-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,29 +9,27 @@
 
   <title>Shrikhand</title>
 
-      <!-- Open Graph data -->
+  <!-- Open Graph data -->
 
-      <meta property="og:title" content="Projet3" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://www.example.com/" />
-      <meta property="og:image" content="http://example.com/image.jpg" />
-      <meta property="og:description" content="Plateforme de reservation de restaurant en ligne" />
- 
-      <!-- Twitter Card data -->
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:site" content="@publisher_handle">
-      <meta name="twitter:title" content="Projet3">
-      <meta name="twitter:description" content="Plateforme de reservation de restaurant en ligne">
-      <meta name="twitter:creator" content="@LeoLourel">
-      <!-- Twitter Summary card images must be at least 200x200px -->
-      <meta name="twitter:image" content="http://www.example.com/image.jpg">
- 
+  <meta property="og:title" content="Projet3" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.example.com/" />
+  <meta property="og:image" content="http://example.com/image.jpg" />
+  <meta property="og:description" content="Plateforme de reservation de restaurant en ligne" />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@publisher_handle">
+  <meta name="twitter:title" content="Projet3">
+  <meta name="twitter:description" content="Plateforme de reservation de restaurant en ligne">
+  <meta name="twitter:creator" content="@LeoLourel">
+  <!-- Twitter Summary card images must be at least 200x200px -->
+  <meta name="twitter:image" content="http://www.example.com/image.jpg">
+
 </head>
 
 <body>
-  <div class="loader"> <!--Div et span pour loading spinner-->
-    <span></span>
-  </div>
+
   <header>
     <img src="../Doc/Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="ohmyfood">
   </header>
@@ -42,38 +40,49 @@
       séléctionnés par nos soins.</p>
     <button>Explorer nos restaurants</button>
   </section>
-  <section> 
+  <section>
     <h2>Fonctionnement</h2>
     <button>Choissisez un restaurant</button>
     <button>Composez votre menu</button>
     <button>Dégustez au restaurant</button>
   </section>
-  <section> <!--Section mise en page des 4restaurants -->
-    <h2>Restaurants</h2> 
-    <div><a href="palettedugoût.html"> <!--Lien vers page palettedugoût.html-->
-      <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/palettedugout.jpg" alt="La palette du goût">
-      </figure>
-      <h3> La palette du goût</h3>
-      <p> Ménilmontant</p></a>
+  <section>
+    <!--Section mise en page des 4restaurants -->
+    <h2>Restaurants</h2>
+    <!--ajouter - pour nom pages-->
+    <div><a href="palette-du-gout.html">
+        <!--Lien vers page palettedugoût.html-->
+        <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/palettedugout.jpg" alt="La palette du goût">
+        </figure>
+        <h3> La palette du goût</h3>
+        <p> Ménilmontant</p>
+      </a>
     </div>
-    <div><a href="noteenchantée.html"> <!--Lien vers page noteenchantée.html-->
-      <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/noteenchantée.jpg" alt="La note enchantée">
-      </figure>
-      <h3> La note enchantée</h3>
-      <p>Charonne</p></a>
+    <div><a href="note-enchantée.html">
+        <!--Lien vers page noteenchantée.html-->
+        <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/noteenchantée.jpg" alt="La note enchantée">
+        </figure>
+        <h3> La note enchantée</h3>
+        <p>Charonne</p>
+      </a>
     </div>
-    <div><a href="alafrancaise.html"> <!--Lien vers page alafrancaise.html-->
-      <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/francaise.jpg" alt="A la francaise"> </figure>
-      <h3> A la francaise</h3>
-      <p> Cité Rouge</p></a>
+    <div><a href="a-la-francaise.html">
+        <!--Lien vers page alafrancaise.html-->
+        <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/francaise.jpg" alt="A la francaise"> </figure>
+        <h3> A la francaise</h3>
+        <p> Cité Rouge</p>
+      </a>
     </div>
-    <div><a href="delicedessens.html"> <!--Lien vers page delicedessens.html-->
-      <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/délicedessens.jpg" alt="delicedessens"> </figure>
-      <h3> Le délice des sens</h3>
-      <p> Folie-Méricourt</p></a>
+    <div><a href="delice-des-sens.html">
+        <!--Lien vers page delicedessens.html-->
+        <figure><img src="../Doc/Maquettes Ohmyfood/images/restaurants/délicedessens.jpg" alt="delicedessens"> </figure>
+        <h3> Le délice des sens</h3>
+        <p> Folie-Méricourt</p>
+      </a>
     </div>
   </section>
-  <footer> <!--Footer identique sur toutes les pages -->
+  <footer>
+    <!--Footer identique sur toutes les pages -->
     <img src="../Doc/Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="ohmyfood">
     <ul>
       <li><a href="#">Proposer un restaurant</a></li>
