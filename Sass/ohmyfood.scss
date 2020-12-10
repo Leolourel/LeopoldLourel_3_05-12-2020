@@ -1,1 +1,13 @@
 @import "utils/_variables.scss";
+@import "utils/_mixins";
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "pages/home";
+
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0;
+}

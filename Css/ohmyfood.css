@@ -1,3 +1,97 @@
+.header {
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  position: relative;
+}
+.header .header__image {
+  width: 50%;
+  height: 22px;
+}
+.header .header__accueil {
+  position: absolute;
+  left: 20px;
+  font-size: 1.4rem;
+}
+.header .header__accueil:visited {
+  color: black;
+}
 
+footer {
+  width: 100%;
+  height: 230px;
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  padding-left: 27px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.imgfooter {
+  width: 100px;
+  height: 22px;
+  margin-top: 27px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+ul li {
+  margin-top: 10px;
+}
+
+.location {
+  width: 100%;
+  height: 51px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.location .location__marker {
+  position: absolute;
+  left: 109px;
+}
+
+.explore {
+  width: 100%;
+  height: 290px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.explore h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.explore p {
+  font-size: 1rem;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0;
+}
 
 /*# sourceMappingURL=ohmyfood.css.map */
