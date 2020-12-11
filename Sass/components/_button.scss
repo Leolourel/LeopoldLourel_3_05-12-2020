@@ -1,0 +1,41 @@
+//button homepage// 
+
+.buttonfonction{
+  width: 324px;
+  height: 75px;
+  background-color:$color-greyback;
+  color: black;
+  position: relative;
+  text-align: center;
+  border-radius: 22px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  &:hover{
+    background-color: #f5edff;
+  }
+  .buttonfonction__fontawe{
+    margin-right: 40px;
+    color: #7e7e7e;
+    &:hover{
+      color:$color-primary;
+    }
+  }
+  .buttonfonction__circle{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background:$color-primary;
+    border: 2px solid $color-primary;
+    color:white;
+    text-align: center;
+    font: 18px "Roboto", sans-serif;
+    position: absolute;
+    left: -16px;
+    top: 21px;
+  }
+}
+
+
+

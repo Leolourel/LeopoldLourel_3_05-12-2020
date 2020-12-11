@@ -7,8 +7,6 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   font-family: "Roboto", sans-serif;
-  padding-left: 27px;
-
   a {
 
     text-decoration: none;
@@ -26,15 +24,18 @@ footer {
   width: 100px;
   height: 22px;
   margin-top: 27px;
+  margin-left: 27px;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin-bottom: 30px;
+  margin-left: 27px;
 
   li {
     margin-top: 10px;
 
   }
 }
+
