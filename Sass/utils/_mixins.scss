@@ -26,13 +26,12 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  
-    height: 263px;
-    overflow: hidden;
+    justify-content: center; 
+    height: 228px;
     width: calc(100%);
     z-index: 1;
     position: absolute;
+    overflow: hidden;
   
     .imgmenu__width{
       width: 100%;
@@ -55,6 +54,23 @@
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    margin-top: 222px;
+    margin-top: 199px;
+    padding-bottom: 70px;
+    padding-top: 20px;
   
 }
+
+//Button order et explore// 
+
+@mixin button ($width:$widthbuttonorder){
+    width: $width;
+    height: 50px;
+    color: white;
+    background-color: $color-primary;
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: $boxshadow;
+  
+  }

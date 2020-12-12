@@ -4,21 +4,26 @@
   background-color: #f6f6f6;
   color: black;
   position: relative;
-  text-align: center;
+  text-align: left;
   border-radius: 22px;
   border: none;
   font-size: 1rem;
   font-weight: 600;
+  box-shadow: 4px 4px 5px #e5e5e5;
+  cursor: pointer;
 }
 .buttonfonction:hover {
   background-color: #f5edff;
 }
 .buttonfonction .buttonfonction__fontawe {
+  margin-left: 40px;
   margin-right: 40px;
+  font-size: 1.2rem;
   color: #7e7e7e;
 }
 .buttonfonction .buttonfonction__fontawe:hover {
   color: #9356DC;
+  border: none;
 }
 .buttonfonction .buttonfonction__circle {
   border-radius: 50%;
@@ -35,6 +40,18 @@
   top: 21px;
 }
 
+.buttonexplore {
+  width: 220px;
+  height: 50px;
+  color: white;
+  background-color: #9356DC;
+  cursor: pointer;
+  border-radius: 22px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 4px 4px 5px #e5e5e5;
+}
+
 .buttonblock {
   width: 100%;
   height: 70px;
@@ -45,6 +62,8 @@
   justify-content: center;
   align-items: flex-start;
   border: none;
+  box-shadow: 4px 4px 5px #e5e5e5;
+  cursor: pointer;
 }
 .buttonblock .buttonblock__title {
   font-size: 1rem;
@@ -61,10 +80,22 @@
   margin-top: 8px;
 }
 
+.buttonorder {
+  width: 186px;
+  height: 50px;
+  color: white;
+  background-color: #9356DC;
+  cursor: pointer;
+  border-radius: 22px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 4px 4px 5px #e5e5e5;
+}
+
 .header {
   background-color: white;
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +113,11 @@
 }
 .header .header__accueil:visited {
   color: black;
+}
+
+.header__noteenchantee {
+  z-index: 2;
+  height: 60px;
 }
 
 footer {
@@ -155,12 +191,13 @@ ul li {
 
 .section1 {
   width: 100%;
-  height: 450px;
+  height: 395px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .titlefonctionement {
@@ -176,6 +213,7 @@ ul li {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 50px;
+  padding-top: 30px;
 }
 .section2 h2 {
   margin-right: 192px;
@@ -188,6 +226,7 @@ ul li {
   width: 334px;
   text-align: left;
   position: relative;
+  box-shadow: 4px 4px 5px #e5e5e5;
 }
 .restaurantblock a {
   text-decoration: none;
@@ -245,17 +284,20 @@ ul li {
   font-size: 1.7rem;
   font-weight: 100;
 }
+.blocktitle .blocktitle__heart:hover {
+  color: #9356DC;
+}
 
 .imgmenu {
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 263px;
-  overflow: hidden;
+  height: 228px;
   width: calc(100%);
   z-index: 1;
   position: absolute;
+  overflow: hidden;
 }
 .imgmenu .imgmenu__width {
   width: 100%;
@@ -273,7 +315,9 @@ ul li {
   flex-wrap: wrap;
   z-index: 2;
   position: relative;
-  margin-top: 222px;
+  margin-top: 199px;
+  padding-bottom: 70px;
+  padding-top: 20px;
 }
 
 .sectionmenu3 {
@@ -288,7 +332,9 @@ ul li {
   flex-wrap: wrap;
   z-index: 2;
   position: relative;
-  margin-top: 222px;
+  margin-top: 199px;
+  padding-bottom: 70px;
+  padding-top: 20px;
 }
 
 h1 {

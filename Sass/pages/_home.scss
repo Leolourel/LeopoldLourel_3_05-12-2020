@@ -44,12 +44,13 @@
 
 .section1 {
   width: 100%;
-  height: 450px;
+  height: 395px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .titlefonctionement {
@@ -68,6 +69,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 50px;
+  padding-top: 30px;
   h2{
     margin-right: 192px;
   }
@@ -80,6 +82,7 @@
   width: 334px;
   text-align: left;
   position: relative;
+  box-shadow: $boxshadow;
 
   a {
     text-decoration: none;
@@ -142,5 +145,8 @@
     top: 10px;
     font-size: 1.7rem;
     font-weight: 100;
+    &:hover {
+      color: $color-primary;
+    }
   }
 }

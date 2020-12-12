@@ -1,24 +1,31 @@
 //button homepage// 
 
+
+//Bouton Fonctionnement homepage//
 .buttonfonction{
   width: 324px;
   height: 75px;
   background-color:$color-greyback;
   color: black;
   position: relative;
-  text-align: center;
+  text-align: left;
   border-radius: 22px;
   border: none;
   font-size: 1rem;
   font-weight: 600;
+  box-shadow: $boxshadow;
+  cursor: pointer;
   &:hover{
     background-color: #f5edff;
   }
   .buttonfonction__fontawe{
+    margin-left: 40px;
     margin-right: 40px;
+    font-size: 1.2rem;
     color: #7e7e7e;
     &:hover{
       color:$color-primary;
+      border: none;
     }
   }
   .buttonfonction__circle{
@@ -37,6 +44,12 @@
   }
 }
 
+
+//Button section 1 explorer //
+
+.buttonexplore{
+@include button ($width:220px)
+}
 //button menu//
 
 .buttonblock{
@@ -49,6 +62,8 @@
   justify-content: center;
   align-items: flex-start;
   border: none;
+  box-shadow: $boxshadow;
+  cursor: pointer;
   .buttonblock__title{
     font-size: 1rem;
     font-weight: 600;
@@ -65,3 +80,9 @@
     margin-top: 8px;
   }
 }
+
+//Button order all menu pages//
+.buttonorder{
+@include button;
+}
+
