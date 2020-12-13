@@ -44,7 +44,7 @@
   width: 220px;
   height: 50px;
   color: white;
-  background-color: #9356DC;
+  background: linear-gradient(-10deg, #9356DC, #ec87e0);
   cursor: pointer;
   border-radius: 22px;
   border: none;
@@ -84,7 +84,7 @@
   width: 186px;
   height: 50px;
   color: white;
-  background-color: #9356DC;
+  background: linear-gradient(-10deg, #9356DC, #ec87e0);
   cursor: pointer;
   border-radius: 22px;
   border: none;
@@ -285,7 +285,9 @@ ul li {
   font-weight: 100;
 }
 .blocktitle .blocktitle__heart:hover {
-  color: #9356DC;
+  background: linear-gradient(180deg, #9356DC, #ec87e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .imgmenu {
