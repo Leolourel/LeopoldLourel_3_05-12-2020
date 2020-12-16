@@ -30,7 +30,6 @@
     height: 228px;
     width: calc(100%);
     z-index: 1;
-    position: absolute;
     overflow: hidden;
   
     .imgmenu__width{
@@ -40,11 +39,11 @@
   
 }
 
-//Section menu//
+//Section menu height different pour les menupage//
 
-@mixin sectionmenu ($color: $color-greyback, $height: $heightsection) {
+@mixin sectionmenu ($color: $color-greyback) {
     width: 100%;
-    height: $height;
+    height: auto;
     background-color: $color;
     display: flex;
     flex-direction: column;
@@ -54,15 +53,15 @@
     flex-wrap: wrap;
     z-index: 2;
     position: relative;
-    margin-top: 199px;
+    margin-top: -41px;
     padding-bottom: 70px;
     padding-top: 20px;
   
 }
 
-//Button order et explore// 
+//Button order et explor width différent pour entre button order et button explore// 
 
-@mixin button ($width:$widthbuttonorder){
+@mixin button ($width: $widthbuttonorder, $margintop: $margintopbutton){
     width: $width;
     height: 50px;
     color: white;
@@ -70,7 +69,7 @@
     cursor: pointer;
     border-radius: 22px;
     border: none;
-    margin-top: 20px;
     box-shadow: $boxshadow;
+    margin-top: $margintop;
   
   }

@@ -12,10 +12,14 @@ $breakpoints : (sm:599px,
   lg:992px,
   xl:1200px);
 
-  //height//
-  $heightsection:1166px;
-  $widthbuttonorder:186px;
+//hwidth//
 
-  //Box Shadow//
+$widthbuttonorder:186px;
 
-  $boxshadow:4px 4px 5px #e5e5e5;
+//Box Shadow//
+
+$boxshadow:4px 4px 5px #e5e5e5;
+
+//Margintop//
+
+$margintopbutton: 0px;

@@ -26,6 +26,7 @@
     &:hover{
       color:$color-primary;
       border: none;
+    
     }
   }
   .buttonfonction__circle{
@@ -50,7 +51,7 @@
 .buttonexplore{
 @include button ($width:220px)
 }
-//button menu//
+//button menu creer une classe text-ellipsis //
 
 .buttonblock{
   width: 100%;
@@ -63,12 +64,12 @@
   align-items: flex-start;
   border: none;
   box-shadow: $boxshadow;
+  margin-top: 17px;
   cursor: pointer;
   .buttonblock__title{
     font-size: 1rem;
     font-weight: 600;
     margin-left: 15px;
-   
   }
   .buttonblock__txt{
     display: flex;
@@ -81,8 +82,8 @@
   }
 }
 
-//Button order all menu pages//
+//Button order all menu pages avec mixin button//
 .buttonorder{
-@include button;
+@include button ($margintop:50px);
 }
 
