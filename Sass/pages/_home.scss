@@ -20,6 +20,9 @@
 	@include ipad {
 	  left: 270px;
 	}
+	@include desktop {
+	  left: 680px;
+	}
   }
 
 }
@@ -64,6 +67,12 @@
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 30px;
+  @include desktop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+  }
 
 }
 
