@@ -67,13 +67,9 @@
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 30px;
-  @include desktop{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-  }
-
+@include desktop{
+  display: none;
+}
 }
 
 .titlefonctionement {
@@ -82,8 +78,35 @@
 	margin: 0;
 	font-size: 1.9rem;
   }
+  @include desktop{
+	margin-right: 0;
+  }
 }
 
+//section 2 fonctionnement desktop//
+
+.section2desktop {
+  width: 100%;
+  height: 395px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 30px;
+  display: none;
+  @include desktop{
+	display: flex;
+  }
+
+}
+
+.section2buttonflex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
 // Section 3  Restaurant//
 
 .section3 {
@@ -96,6 +119,11 @@
   align-items: center;
   padding-bottom: 71px;
   padding-top: 68px;
+  @include desktop{
+	flex-direction: row;
+	flex-wrap:wrap ;
+	justify-content: space-around;
+  }
 
   h2 {
 	margin-right: 192px;
@@ -104,6 +132,13 @@
 	  margin-right: 0px;
 	  font-size: 1.9rem;
 
+	}
+	@include desktop{
+	  width: 100%;
+	  text-align: center;
+	  margin-right: 0;
+	  margin-top: 50px;
+	  margin-bottom: 50px;
 	}
   }
 }
@@ -122,7 +157,11 @@
 	width: 450px;
 	margin-bottom: 30px;
   }
-
+  @include desktop{
+	width: 540px;
+	height: 350px;
+	margin-top: 50px;
+  }
   a {
 	text-decoration: none;
 
@@ -143,6 +182,9 @@
 	width: calc(100%);
 	@include ipad{
     height: 200px;
+	}
+	@include desktop{
+	  height: 250px;
 	}
 
   }
@@ -187,6 +229,11 @@
 	margin-left: 20px;
 	margin-top: 15px;
   }
+  @include desktop {
+	margin: 0;
+	margin-left: 20px;
+	margin-top: 25px;
+  }
 
   p {
 	font-size: 1rem;
@@ -195,6 +242,9 @@
 	@include ipad{
 	  font-size: 1.2rem;
 	  margin-top: 15px;
+	}
+	@include desktop{
+	  margin-top: 10px;
 	}
   }
 

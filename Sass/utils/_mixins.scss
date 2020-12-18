@@ -14,7 +14,7 @@
 }
 
 @mixin desktop {
-  @media screen and (min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, xl)) {
+  @media screen and (min-width: map-get($breakpoints,lg)) and (max-width: map-get($breakpoints, xl)) {
     @content;
   }
 }

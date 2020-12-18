@@ -12,11 +12,19 @@
   @include ipad{
     justify-content: flex-end;
     }
+  @include desktop{
+    justify-content: flex-end;
+  }
 
   .header__image {
     width: 50%;
     height: 22px;
     @include ipad{
+      width: 25%;
+      height: 20px;
+      margin-right: 20px;
+    }
+    @include desktop{
       width: 25%;
       height: 20px;
       margin-right: 20px;

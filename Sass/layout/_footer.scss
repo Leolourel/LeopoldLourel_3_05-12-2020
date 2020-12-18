@@ -10,6 +10,9 @@ footer {
   @include ipad {            //version ipad footer centrer //
     align-items: center;
   }
+  @include desktop{
+    align-items: center;
+  }
   a {
 
     text-decoration: none;
