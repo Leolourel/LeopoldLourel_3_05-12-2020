@@ -9,10 +9,18 @@
   align-items: center;
   color: black;
   position: relative;
+  @include ipad{
+    justify-content: flex-end;
+    }
 
   .header__image {
     width: 50%;
     height: 22px;
+    @include ipad{
+      width: 25%;
+      height: 20px;
+      margin-right: 20px;
+    }
   }
 
   .header__accueil {

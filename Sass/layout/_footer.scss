@@ -6,7 +6,10 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto',sans-serif;
+  @include ipad {            //version ipad footer centrer //
+    align-items: center;
+  }
   a {
 
     text-decoration: none;
@@ -25,6 +28,10 @@ footer {
   height: 22px;
   margin-top: 27px;
   margin-left: 27px;
+  @include ipad{
+    width: 130px;
+    height: 35px;
+  }
 }
 
 ul {
@@ -35,6 +42,9 @@ ul {
 
   li {
     margin-top: 10px;
+    @include ipad{
+      font-size: 1.2rem;
+    }
 
   }
 }

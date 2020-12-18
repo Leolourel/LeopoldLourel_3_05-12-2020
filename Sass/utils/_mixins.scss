@@ -7,14 +7,14 @@
   }
 }
 
-@mixin lg {
-  @media screen and(max-width: map-get($breakpoints, lg)) {
+@mixin ipad {
+  @media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
     @content;
   }
 }
 
-@mixin xl {
-  @media screen and(max-width: map-get($breakpoints, xl)) {
+@mixin desktop {
+  @media screen and (min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, xl)) {
     @content;
   }
 }
@@ -39,7 +39,7 @@
   
 }
 
-//Section menu height different pour les menupage//
+//Section menu //
 
 @mixin sectionmenu ($color: $color-greyback) {
     width: 100%;
@@ -71,5 +71,21 @@
     border: none;
     box-shadow: $boxshadow;
     margin-top: $margintop;
-  
+  @include ipad {
+    height: 65px;
+    width: $width;
+    font-size: 1.2rem;
+    border-radius: 30px;
   }
+  &:focus{
+    outline: none;
+  }
+  }
+
+//Heart font awesome hover linear gradient //
+@mixin heart {
+  background: linear-gradient(180deg, $color-primary, #ec87e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}

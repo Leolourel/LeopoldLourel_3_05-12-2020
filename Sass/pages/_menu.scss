@@ -12,6 +12,13 @@ h1 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   font-size: 1.7rem;
   font-weight: 500;
+  @include ipad{
+    font-size: 1.9rem;
+  }
+}
+
+.heartawe:hover{
+  @include heart;
 }
 
 //Menu block//
@@ -29,6 +36,9 @@ h1 {
     font-size: 1.4rem;
     font-weight: 300;
     margin-top: 35px;
+    @include ipad {
+    font-size: 1.6rem;
+    }
 
     em {
       font-style: normal;

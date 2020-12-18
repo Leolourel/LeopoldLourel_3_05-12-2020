@@ -12,14 +12,30 @@
   box-shadow: 4px 4px 5px #e5e5e5;
   cursor: pointer;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonfonction {
+    width: 400px;
+    height: 85px;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
 .buttonfonction:hover {
   background-color: #f5edff;
+}
+.buttonfonction:focus {
+  outline: none;
 }
 .buttonfonction .buttonfonction__fontawe {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 1.2rem;
   color: #7e7e7e;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonfonction .buttonfonction__fontawe {
+    font-size: 1.4rem;
+  }
 }
 .buttonfonction .buttonfonction__fontawe:hover {
   color: #9356DC;
@@ -51,7 +67,44 @@
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 0px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonexplore {
+    height: 65px;
+    width: 220px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
+}
+.buttonexplore:focus {
+  outline: none;
+}
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonexplore {
+    width: 400px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(-10deg, #9356DC, #ec87e0);
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 4px 4px 5px #e5e5e5;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 1024px) {
+  .buttonexplore {
+    height: 65px;
+    width: 400px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonexplore:focus {
+    outline: none;
+  }
+}
 .buttonblock {
   width: 100%;
   height: 70px;
@@ -66,10 +119,23 @@
   margin-top: 17px;
   cursor: pointer;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonblock {
+    margin-top: 25px;
+  }
+}
+.buttonblock:focus {
+  outline: none;
+}
 .buttonblock .buttonblock__title {
   font-size: 1rem;
   font-weight: 600;
   margin-left: 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonblock .buttonblock__title {
+    font-size: 1.2rem;
+  }
 }
 .buttonblock .buttonblock__txt {
   display: flex;
@@ -79,6 +145,11 @@
   margin-left: 15px;
   width: 90%;
   margin-top: 8px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonblock .buttonblock__txt {
+    font-size: 1rem;
+  }
 }
 
 .buttonorder {
@@ -92,7 +163,44 @@
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 50px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonorder {
+    height: 65px;
+    width: 186px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
+}
+.buttonorder:focus {
+  outline: none;
+}
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonorder {
+    width: 400px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(-10deg, #9356DC, #ec87e0);
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 4px 4px 5px #e5e5e5;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-width: 768px) and (max-width: 1024px) {
+  .buttonorder {
+    height: 65px;
+    width: 400px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonorder:focus {
+    outline: none;
+  }
+}
 .header {
   background-color: white;
   width: 100%;
@@ -103,9 +211,21 @@
   color: black;
   position: relative;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    justify-content: flex-end;
+  }
+}
 .header .header__image {
   width: 50%;
   height: 22px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header .header__image {
+    width: 25%;
+    height: 20px;
+    margin-right: 20px;
+  }
 }
 .header .header__accueil {
   position: absolute;
@@ -130,6 +250,11 @@ footer {
   justify-content: space-evenly;
   font-family: "Roboto", sans-serif;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    align-items: center;
+  }
+}
 footer a {
   text-decoration: none;
   color: white;
@@ -145,6 +270,12 @@ footer a:visited {
   margin-top: 27px;
   margin-left: 27px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .imgfooter {
+    width: 130px;
+    height: 35px;
+  }
+}
 
 ul {
   list-style: none;
@@ -154,6 +285,11 @@ ul {
 }
 ul li {
   margin-top: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  ul li {
+    font-size: 1.2rem;
+  }
 }
 
 .location {
@@ -165,9 +301,19 @@ ul li {
   align-items: center;
   position: relative;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .location {
+    font-size: 1.5rem;
+  }
+}
 .location .location__marker {
   position: absolute;
   left: 109px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .location .location__marker {
+    left: 270px;
+  }
 }
 
 .explore {
@@ -186,9 +332,19 @@ ul li {
   font-weight: 700;
   width: 80%;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .explore h2 {
+    font-size: 1.9rem;
+  }
+}
 .explore p {
   font-size: 1.2rem;
   font-weight: 300;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .explore p {
+    font-size: 1.6rem;
+  }
 }
 
 .section2 {
@@ -204,6 +360,12 @@ ul li {
 
 .titlefonctionement {
   margin-right: 140px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titlefonctionement {
+    margin: 0;
+    font-size: 1.9rem;
+  }
 }
 
 .section3 {
@@ -221,6 +383,12 @@ ul li {
   margin-right: 192px;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section3 h2 {
+    margin-right: 0px;
+    font-size: 1.9rem;
+  }
+}
 
 .restaurantblock {
   border-radius: 22px;
@@ -231,6 +399,13 @@ ul li {
   position: relative;
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 22px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .restaurantblock {
+    height: 300px;
+    width: 450px;
+    margin-bottom: 30px;
+  }
 }
 .restaurantblock a {
   text-decoration: none;
@@ -249,6 +424,11 @@ ul li {
   border-radius: 22px 22px 0px 0px;
   width: calc(100%);
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .restaurantblock .restaurantblock__img {
+    height: 200px;
+  }
+}
 .restaurantblock .restaurantblock__img2 {
   width: 100%;
 }
@@ -265,6 +445,13 @@ ul li {
   border-radius: 2px;
   line-height: 28px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .restaurantblock .restaurantblock__nouveau {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+  }
+}
 
 .blocktitle {
   text-decoration: none;
@@ -276,10 +463,24 @@ ul li {
   font-weight: 600;
   position: relative;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .blocktitle {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}
 .blocktitle p {
   font-size: 1rem;
   margin-top: 5px;
   font-weight: 300;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .blocktitle p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
 }
 .blocktitle .blocktitle__heart {
   position: absolute;
@@ -287,6 +488,13 @@ ul li {
   top: 10px;
   font-size: 1.7rem;
   font-weight: 100;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .blocktitle .blocktitle__heart {
+    right: 30px;
+    top: 20px;
+    font-size: 2rem;
+  }
 }
 .blocktitle .blocktitle__heart:hover {
   background: linear-gradient(180deg, #9356DC, #ec87e0);
@@ -334,6 +542,18 @@ h1 {
   font-size: 1.7rem;
   font-weight: 500;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+}
+
+.heartawe:hover {
+  background: linear-gradient(180deg, #9356DC, #ec87e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
 
 .menublock {
   display: flex;
@@ -348,6 +568,11 @@ h1 {
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 35px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menublock h2 {
+    font-size: 1.6rem;
+  }
 }
 .menublock h2 em {
   font-style: normal;

@@ -15,14 +15,26 @@
   font-weight: 600;
   box-shadow: $boxshadow;
   cursor: pointer;
+  @include ipad{
+    width: 400px;
+    height: 85px;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
   &:hover{
     background-color: #f5edff;
+  }
+  &:focus{
+    outline: none;
   }
   .buttonfonction__fontawe{
     margin-left: 40px;
     margin-right: 40px;
     font-size: 1.2rem;
     color: #7e7e7e;
+    @include ipad{
+      font-size: 1.4rem;
+    }
     &:hover{
       color:$color-primary;
       border: none;
@@ -51,7 +63,15 @@
 .buttonexplore{
 @include button ($width:220px)
 }
-//button menu creer une classe text-ellipsis //
+
+  @media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
+    .buttonexplore{
+      @include button($width:400px)
+    }
+  }
+
+
+//button menu  Entrées plats desserts//
 
 .buttonblock{
   width: 100%;
@@ -66,10 +86,19 @@
   box-shadow: $boxshadow;
   margin-top: 17px;
   cursor: pointer;
+  @include ipad {
+  margin-top: 25px;
+  }
+  &:focus{
+    outline: none;
+  }
   .buttonblock__title{
     font-size: 1rem;
     font-weight: 600;
     margin-left: 15px;
+    @include ipad {
+    font-size: 1.2rem;
+    }
   }
   .buttonblock__txt{
     display: flex;
@@ -79,6 +108,9 @@
     margin-left: 15px;
     width: 90%;
     margin-top: 8px;
+    @include ipad {
+font-size: 1rem;
+    }
   }
 }
 
@@ -86,4 +118,10 @@
 .buttonorder{
 @include button ($margintop:50px);
 }
+@media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
+  .buttonorder{
+    @include button($width:400px,$margintop:50px);
+  }
+}
+
 
