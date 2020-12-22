@@ -31,6 +31,12 @@
     width: calc(100%);
     z-index: 1;
     overflow: hidden;
+    @include desktop{
+      height: 350px;
+    }
+    @include ipad{
+      height: 350px;
+    }
   
     .imgmenu__width{
       width: 100%;

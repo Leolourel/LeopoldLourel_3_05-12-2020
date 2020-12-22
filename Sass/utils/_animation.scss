@@ -1,19 +1,21 @@
-@keyframes hearthover {
-  0%{
-	position: absolute;
-	right: 25px;
-	top: 10px;
-	font-size: 1.7rem;
-	font-weight: 600;
+@keyframes menublocktrans {
+  from{
+	opacity: 0;
   }
-   100%{
-	 position: absolute;
-	 right: 25px;
-	 top: 10px;
-	 font-size: 1.7rem;
-	 background: linear-gradient(180deg, $color-primary, #ec87e0);
-	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
-	 font-weight: 600;
-   }
+
+  to{
+	opacity: 1;
+  }
 }
+
+.menublock1{
+  animation: 0.5s ease-in menublocktrans;
+}
+.menublock2{
+  animation: 1s ease-in menublocktrans;
+}
+.menublock3{
+  animation: 1.5s ease-in menublocktrans;
+}
+
+

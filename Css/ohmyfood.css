@@ -1,22 +1,23 @@
-@keyframes hearthover {
-  0% {
-    position: absolute;
-    right: 25px;
-    top: 10px;
-    font-size: 1.7rem;
-    font-weight: 600;
+@keyframes menublocktrans {
+  from {
+    opacity: 0;
   }
-  100% {
-    position: absolute;
-    right: 25px;
-    top: 10px;
-    font-size: 1.7rem;
-    background: linear-gradient(180deg, #9356DC, #ec87e0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
+  to {
+    opacity: 1;
   }
 }
+.menublock1 {
+  animation: 0.5s ease-in menublocktrans;
+}
+
+.menublock2 {
+  animation: 1s ease-in menublocktrans;
+}
+
+.menublock3 {
+  animation: 1.5s ease-in menublocktrans;
+}
+
 .buttonfonction {
   width: 324px;
   height: 75px;
@@ -647,6 +648,16 @@ ul li {
   width: calc(100%);
   z-index: 1;
   overflow: hidden;
+}
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .imgmenu {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .imgmenu {
+    height: 350px;
+  }
 }
 .imgmenu .imgmenu__width {
   width: 100%;
