@@ -1,0 +1,19 @@
+@keyframes hearthover {
+  0%{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	font-size: 1.7rem;
+	font-weight: 600;
+  }
+   100%{
+	 position: absolute;
+	 right: 25px;
+	 top: 10px;
+	 font-size: 1.7rem;
+	 background: linear-gradient(180deg, $color-primary, #ec87e0);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 font-weight: 600;
+   }
+}

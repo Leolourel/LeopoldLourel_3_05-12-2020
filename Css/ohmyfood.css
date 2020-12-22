@@ -1,3 +1,22 @@
+@keyframes hearthover {
+  0% {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  100% {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 1.7rem;
+    background: linear-gradient(180deg, #9356DC, #ec87e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+}
 .buttonfonction {
   width: 324px;
   height: 75px;
@@ -78,6 +97,10 @@
 .buttonexplore:focus {
   outline: none;
 }
+.buttonexplore:hover {
+  box-shadow: 8px 8px 4px #e5e5e5;
+  filter: brightness(110%);
+}
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonexplore {
@@ -103,6 +126,12 @@
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonexplore:focus {
     outline: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .buttonexplore:hover {
+    box-shadow: 8px 8px 4px #e5e5e5;
+    filter: brightness(110%);
   }
 }
 .buttonblock {
@@ -174,6 +203,10 @@
 .buttonorder:focus {
   outline: none;
 }
+.buttonorder:hover {
+  box-shadow: 8px 8px 4px #e5e5e5;
+  filter: brightness(110%);
+}
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonorder {
@@ -199,6 +232,12 @@
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonorder:focus {
     outline: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .buttonorder:hover {
+    box-shadow: 8px 8px 4px #e5e5e5;
+    filter: brightness(110%);
   }
 }
 .header {

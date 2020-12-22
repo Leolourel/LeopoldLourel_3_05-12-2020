@@ -80,6 +80,11 @@
   &:focus{
     outline: none;
   }
+  &:hover {
+    box-shadow: 8px 8px 4px #e5e5e5;
+   filter: brightness(110%);
+
+  }
   }
 
 //Heart font awesome hover linear gradient //
@@ -88,4 +93,5 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+
 }
