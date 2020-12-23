@@ -16,9 +16,35 @@ h1 {
     font-size: 1.9rem;
   }
 }
+.containerlike{
+  position: relative;
+}
+.heartawe{ // appliquer a toutes les pages et réussir l'animation //
 
+  &:hover+.heartawe--full{
+    opacity: 1;
+
+
+  }
+  &--full{
+    position: absolute;
+    left: 0;
+    top: 4px;
+    background: linear-gradient(180deg, $color-primary, #ec87e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    transition-property: opacity;
+    transition-delay: 3000ms;
+    pointer-events: none;
+    &.far{
+      font-weight: 600;
+    }
+  }
+}
 .heartawe:hover{
   @include heart;
+
 }
 
 //Menu block//

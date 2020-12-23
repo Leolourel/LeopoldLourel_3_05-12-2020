@@ -1,9 +1,11 @@
 @keyframes menublocktrans {
   from {
     opacity: 0;
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
+    transform: translateY(0px);
   }
 }
 .menublock1 {
@@ -274,7 +276,7 @@
 }
 @media screen and (min-width: 1025px) and (max-width: 2000px) {
   .header .header__image {
-    width: 25%;
+    width: 20%;
     height: 20px;
     margin-right: 20px;
   }
@@ -340,6 +342,24 @@ ul {
   margin-bottom: 30px;
   margin-left: 27px;
 }
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+}
 ul li {
   margin-top: 10px;
 }
@@ -364,17 +384,21 @@ ul li {
   }
 }
 .location .location__marker {
+  position: relative;
+}
+
+.markerfont {
   position: absolute;
-  left: 109px;
+  left: -20px;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
-  .location .location__marker {
-    left: 270px;
+  .markerfont {
+    left: -30px;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 2000px) {
-  .location .location__marker {
-    left: 680px;
+  .markerfont {
+    left: -30px;
   }
 }
 
@@ -692,6 +716,29 @@ h1 {
   h1 {
     font-size: 1.9rem;
   }
+}
+
+.containerlike {
+  position: relative;
+}
+
+.heartawe:hover + .heartawe--full {
+  opacity: 1;
+}
+.heartawe--full {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  background: linear-gradient(180deg, #9356DC, #ec87e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 3000ms;
+  pointer-events: none;
+}
+.heartawe--full.far {
+  font-weight: 600;
 }
 
 .heartawe:hover {

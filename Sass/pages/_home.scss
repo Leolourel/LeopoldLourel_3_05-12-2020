@@ -15,16 +15,21 @@
   }
 
   .location__marker {
-	position: absolute;
-	left: 109px;
-	@include ipad {
-	  left: 270px;
-	}
-	@include desktop {
-	  left: 680px;
-	}
+	position: relative;
+
   }
 
+}
+
+.markerfont{
+  position: absolute;
+  left: -20px;
+  @include ipad {
+   left: -30px;
+  }
+  @include desktop {
+   left:-30px;
+  }
 }
 
 .explore {
