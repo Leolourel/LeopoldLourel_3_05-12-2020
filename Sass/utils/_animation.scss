@@ -1,3 +1,8 @@
+// finir animation heart, animation loading spinner, animation menu check, html et css validator, code review compléte //
+
+
+//Animation menu entrées plats desserts//
+
 @keyframes menublocktrans {
   from{
 	opacity: 0;
@@ -6,9 +11,10 @@
 
   to{
 	opacity: 1;
-	transform: translateY(0px);
+	transform: translateY(0);
   }
 }
+
 
 .menublock1{
   animation: 0.5s ease-in menublocktrans;
@@ -19,5 +25,3 @@
 .menublock3{
   animation: 1.5s ease-in menublocktrans;
 }
-
-
