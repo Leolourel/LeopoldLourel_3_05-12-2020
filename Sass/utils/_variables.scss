@@ -1,24 +1,23 @@
 // color //
-$color-primary:#9356DC;
-$color-secondary:#FF79DA;
-$color-tertiary:#99E2D0;
-$color-greyback:#f6f6f6;
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+$color-greyback: #f6f6f6;
 
+// breakpoints-min //
 
-// breakpoints-min // 
+$breakpoints: (sm:599px,
+		md:768px,
+		lg:1025px,
+		xl:2000px);
 
-$breakpoints : (sm:599px,
-  md:768px,
-  lg:1025px,
-  xl:2000px);
+//width//
 
-//hwidth//
-
-$widthbuttonorder:186px;
+$widthbuttonorder: 186px;
 
 //Box Shadow//
 
-$boxshadow:4px 4px 5px #e5e5e5;
+$boxshadow: 4px 4px 5px #e5e5e5;
 
 //Margintop//
 

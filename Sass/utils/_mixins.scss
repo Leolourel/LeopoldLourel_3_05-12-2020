@@ -1,21 +1,20 @@
 // Breakpoints // 
 
-
-@mixin md {  //Premiere version mobile donc pas de media query pour mobile// 
-  @media screen and(min-width: map-get($breakpoints,sm))and (max-width: map-get($breakpoints, md)) {
-    @content;
+@mixin md { //Premiere version mobile donc pas de media query pour mobile//
+  @media screen and(min-width: map-get($breakpoints, sm)) and (max-width: map-get($breakpoints, md)) {
+	@content;
   }
 }
 
 @mixin ipad {
-  @media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
-    @content;
+  @media screen and(min-width: map-get($breakpoints, md)) and (max-width: map-get($breakpoints, lg)) {
+	@content;
   }
 }
 
 @mixin desktop {
-  @media screen and (min-width: map-get($breakpoints,lg)) and (max-width: map-get($breakpoints, xl)) {
-    @content;
+  @media screen and (min-width: map-get($breakpoints, lg)) and (max-width: map-get($breakpoints, xl)) {
+	@content;
   }
 }
 
@@ -23,75 +22,75 @@
 
 @mixin imgmenu {
   .imgmenu {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    height: 228px;
-    width: calc(100%);
-    z-index: 1;
-    overflow: hidden;
-    @include desktop{
-      height: 350px;
-    }
-    @include ipad{
-      height: 350px;
-    }
-  
-    .imgmenu__width{
-      width: 100%;
-    }
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 228px;
+	width: calc(100%);
+	z-index: 1;
+	overflow: hidden;
+	@include desktop {
+	  height: 350px;
+	}
+	@include ipad {
+	  height: 350px;
+	}
+
+	.imgmenu__width {
+	  width: 100%;
+	}
   }
-  
+
 }
 
 //Section menu //
 
-@mixin sectionmenu ($color: $color-greyback) {
-    width: 100%;
-    height: auto;
-    background-color: $color;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 43px 43px 0px 0px;
-    flex-wrap: wrap;
-    z-index: 2;
-    position: relative;
-    margin-top: -41px;
-    padding-bottom: 70px;
-    padding-top: 20px;
-  
+@mixin sectionmenu($color: $color-greyback) {
+  width: 100%;
+  height: auto;
+  background-color: $color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 43px 43px 0px 0px;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: relative;
+  margin-top: -41px;
+  padding-bottom: 70px;
+  padding-top: 20px;
+
 }
 
 //Button order et explor width différent pour entre button order et button explore// 
 
-@mixin button ($width: $widthbuttonorder, $margintop: $margintopbutton){
-    width: $width;
-    height: 50px;
-    color: white;
-    background:linear-gradient( -10deg ,$color-primary,#ec87e0);
-    cursor: pointer;
-    border-radius: 22px;
-    border: none;
-    box-shadow: $boxshadow;
-    margin-top: $margintop;
+@mixin button($width: $widthbuttonorder, $margintop: $margintopbutton) {
+  width: $width;
+  height: 50px;
+  color: white;
+  background: linear-gradient(-10deg, $color-primary, #ec87e0);
+  cursor: pointer;
+  border-radius: 22px;
+  border: none;
+  box-shadow: $boxshadow;
+  margin-top: $margintop;
   @include ipad {
-    height: 65px;
-    width: $width;
-    font-size: 1.2rem;
-    border-radius: 30px;
+	height: 65px;
+	width: $width;
+	font-size: 1.2rem;
+	border-radius: 30px;
   }
-  &:focus{
-    outline: none;
+  &:focus {
+	outline: none;
   }
   &:hover {
-    box-shadow: 8px 8px 4px #e5e5e5;
-   filter: brightness(110%);
+	box-shadow: 8px 8px 4px #e5e5e5;
+	filter: brightness(110%);
 
   }
-  }
+}
 
 //Heart font awesome hover linear gradient //
 @mixin heart {
