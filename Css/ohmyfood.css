@@ -22,7 +22,11 @@
 
 .spinner {
   background-color: white;
+  opacity: 0.7;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 999999;
   width: 100%;
   height: 100vh;
@@ -53,6 +57,20 @@
 @keyframes spinner-hide {
   to {
     z-index: -1;
+  }
+}
+@keyframes buttonselect {
+  from {
+    transform: translateX(0%) rotate(0);
+    display: block;
+    background-color: #99E2D0;
+    position: relative;
+  }
+  to {
+    transform: translateX(100%) rotate(720deg);
+    display: block;
+    background-color: #99E2D0;
+    position: relative;
   }
 }
 .buttonfonction {
@@ -178,13 +196,13 @@
   border-radius: 22px;
   background-color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   border: none;
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 17px;
+  position: relative;
   cursor: pointer;
+  padding: 0;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock {
@@ -194,29 +212,46 @@
 .buttonblock:focus {
   outline: none;
 }
-.buttonblock .buttonblock__title {
+.buttonblock__content {
+  background-color: #99E2D0;
+  flex: 1;
+  height: 100%;
+  text-align: start;
+  padding-top: 10px;
+  margin-left: 14px;
+}
+.buttonblock__select {
+  position: absolute;
+  right: -10px;
+  height: 70px;
+  line-height: 70px;
+  background-color: blue;
+  display: none;
+}
+.buttonblock__select:active {
+  animation: buttonselect 2s linear infinite;
+}
+.buttonblock__price {
+  background-color: #9356DC;
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  line-height: 70px;
+  margin-top: 21px;
+}
+
+.buttonblock__title {
   font-size: 1rem;
   font-weight: 600;
-  margin-left: 15px;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
-  .buttonblock .buttonblock__title {
+  .buttonblock__title {
     font-size: 1.2rem;
   }
 }
-.buttonblock .buttonblock__txt {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin-left: 15px;
-  width: 90%;
+
+.buttonblock__text {
   margin-top: 8px;
-}
-@media screen and (min-width: 768px) and (max-width: 1025px) {
-  .buttonblock .buttonblock__txt {
-    font-size: 1rem;
-  }
 }
 
 .buttonorder {
