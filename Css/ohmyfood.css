@@ -61,18 +61,18 @@
 }
 @keyframes buttonselect {
   from {
-    transform: translateX(0%) rotate(0);
+    transform: translateX(0) rotate(0);
   }
   to {
-    transform: translateX(-100%) rotate(720deg);
+    transform: translateX(-1px) rotate(720deg);
   }
 }
 @keyframes buttonprice {
   from {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50px);
   }
 }
 .buttonfonction {
@@ -205,6 +205,15 @@
   position: relative;
   cursor: pointer;
   padding: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+.buttonblock:active .buttonblock__price {
+  animation: buttonprice 2s linear forwards;
+}
+.buttonblock:active .buttonblock__select {
+  animation: buttonselect 2s linear forwards;
+  display: block;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock {
@@ -221,31 +230,26 @@
   text-align: start;
   padding-top: 10px;
   margin-left: 14px;
-}
-.buttonblock__select {
-  position: absolute;
-  right: -10px;
-  height: 70px;
-  line-height: 70px;
-  background-color: blue;
-  display: none;
-}
-.buttonblock__select:active {
-  animation: buttonselect 2s linear infinite;
-  display: block;
-  background-color: #99E2D0;
-  position: relative;
+  z-index: 3;
 }
 .buttonblock__price {
   background-color: #9356DC;
-  width: 40px;
+  width: 60px;
   height: 100%;
   text-align: center;
   line-height: 70px;
-  margin-top: 21px;
+  z-index: 3;
 }
-.buttonblock__price:active {
-  animation: buttonprice 2s linear infinite;
+
+.buttonblock__select {
+  position: absolute;
+  right: -13px;
+  height: 80px;
+  line-height: 80px;
+  background-color: blue;
+  z-index: 2;
+  display: none;
+  width: 80px;
 }
 
 .buttonblock__title {

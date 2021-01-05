@@ -3,153 +3,159 @@
 
 //Bouton Fonctionnement homepage//
 .buttonfonction{
-  width: 324px;
-  height: 75px;
-  background-color:$color-greyback;
-  color: black;
-  position: relative;
-  text-align: left;
-  border-radius: 22px;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  box-shadow: $boxshadow;
-  cursor: pointer;
-  @include ipad{
-	width: 400px;
-	height: 85px;
-	font-size: 1.4rem;
-	font-weight: 400;
-  }
-  &:hover{
-	background-color: #f5edff;
-  }
-  &:focus{
-	outline: none;
-  }
-  .buttonfonction__fontawe{
-	margin-left: 40px;
-	margin-right: 40px;
-	font-size: 1.2rem;
-	color: #7e7e7e;
+	width: 324px;
+	height: 75px;
+	background-color:$color-greyback;
+	color: black;
+	position: relative;
+	text-align: left;
+	border-radius: 22px;
+	border: none;
+	font-size: 1rem;
+	font-weight: 600;
+	box-shadow: $boxshadow;
+	cursor: pointer;
 	@include ipad{
-	  font-size: 1.4rem;
+		width: 400px;
+		height: 85px;
+		font-size: 1.4rem;
+		font-weight: 400;
 	}
 	&:hover{
-	  color:$color-primary;
-	  border: none;
-	  
+		background-color: #f5edff;
 	}
-  }
-  .buttonfonction__circle{
-	border-radius: 50%;
-	width: 18px;
-	height: 18px;
-	padding: 8px;
-	background:$color-primary;
-	border: 2px solid $color-primary;
-	color:white;
-	text-align: center;
-	font: 18px "Roboto", sans-serif;
-	position: absolute;
-	left: -16px;
-	top: 21px;
-  }
+	&:focus{
+		outline: none;
+	}
+	.buttonfonction__fontawe{
+		margin-left: 40px;
+		margin-right: 40px;
+		font-size: 1.2rem;
+		color: #7e7e7e;
+		@include ipad{
+			font-size: 1.4rem;
+		}
+		&:hover{
+			color:$color-primary;
+			border: none;
+
+		}
+	}
+	.buttonfonction__circle{
+		border-radius: 50%;
+		width: 18px;
+		height: 18px;
+		padding: 8px;
+		background:$color-primary;
+		border: 2px solid $color-primary;
+		color:white;
+		text-align: center;
+		font: 18px "Roboto", sans-serif;
+		position: absolute;
+		left: -16px;
+		top: 21px;
+	}
 }
 
 
 //Button section 1 explorer //
 
 .buttonexplore{
-  @include button ($width:220px)
+	@include button ($width:220px)
 }
 
 @media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
-  .buttonexplore{
-	@include button($width:400px)
-  }
+	.buttonexplore{
+		@include button($width:400px)
+	}
 }
 
 
 //button menu  Entrées plats desserts//
 
 .buttonblock {
-  width: 100%;
-  height: 70px;
-  border-radius: 22px;
-  background-color: white;
-  display: flex;
-  align-items: flex-start;
-  border: none;
-  box-shadow: $boxshadow;
-  margin-top: 17px;
-  position: relative;
-  cursor: pointer;
-  padding: 0;
-  
-  @include ipad {
-	margin-top: 25px;
-  }
-  
-  &:focus {
-	outline: none;
-  }
-  
-  &__content {
-	background-color: #99E2D0;
-	flex: 1;
-	height: 100%;
-	text-align: start;
-	padding-top: 10px;
-	margin-left: 14px;
-  }
-  &__select{
-	position: absolute;
-	right: -10px;
+	width: 100%;
 	height: 70px;
-	line-height: 70px;
-	background-color: blue;
-	display: none;
-	&:active{
-	  animation: buttonselect 2s linear infinite;
-	  display: block;
-	  background-color: #99E2D0;
-	  position: relative;
-	}
-  }
+	border-radius: 22px;
+	background-color: white;
+	display: flex;
+	align-items: flex-start;
+	border: none;
+	box-shadow: $boxshadow;
+	margin-top: 17px;
+	position: relative;
+	cursor: pointer;
+	padding: 0;
+	overflow: hidden;
+	z-index: 3;
 
-  
-  &__price {
-	background-color: #9356DC;
-	width: 40px;
-	height: 100%;
-	text-align: center;
-	line-height: 70px;
-	margin-top: 21px;
-	&:active{
-	  animation: buttonprice 2s linear infinite;
+	&:active {
+		//regle au click du boutton //
+		& .buttonblock__price{
+			animation: buttonprice 2s linear forwards;
+		}
+		& .buttonblock__select{
+			animation: buttonselect 2s linear forwards;
+			display: block;
+		}
 	}
-  }
+	@include ipad {
+		margin-top: 25px;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&__content {
+		background-color: #99E2D0;
+		flex: 1;
+		height: 100%;
+		text-align: start;
+		padding-top: 10px;
+		margin-left: 14px;
+		z-index: 3;
+	}
+
+	&__price {
+		background-color: #9356DC;
+		width: 60px;
+		height: 100%;
+		text-align: center;
+		line-height: 70px;
+		z-index: 3;
+	}
 }
+
+.buttonblock__select{
+	position: absolute;
+	right: -13px;
+	height: 80px;
+	line-height: 80px;
+	background-color: blue;
+	z-index: 2;
+	display: none;
+	width: 80px;
+}
+
 
 .buttonblock__title {
-  font-size: 1rem;
-  font-weight: 600;
-  @include ipad {
-	font-size: 1.2rem;
-  }
+	font-size: 1rem;
+	font-weight: 600;
+	@include ipad {
+		font-size: 1.2rem;
+	}
 }
 .buttonblock__text{
-  margin-top: 8px;
+	margin-top: 8px;
 }
 //Button order all menu pages avec mixin button//
 .buttonorder{
-  @include button ($margintop:50px);
+	@include button ($margintop:50px);
 }
 @media screen and(min-width: map-get($breakpoints,md)) and (max-width: map-get($breakpoints, lg))  {
-  .buttonorder{
-	@include button($width:400px,$margintop:50px);
-  }
+	.buttonorder{
+		@include button($width:400px,$margintop:50px);
+	}
 }
-
 
