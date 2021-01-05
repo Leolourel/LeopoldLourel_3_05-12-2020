@@ -112,6 +112,9 @@
 	display: none;
 	&:active{
 	  animation: buttonselect 2s linear infinite;
+	  display: block;
+	  background-color: #99E2D0;
+	  position: relative;
 	}
   }
 
@@ -123,6 +126,9 @@
 	text-align: center;
 	line-height: 70px;
 	margin-top: 21px;
+	&:active{
+	  animation: buttonprice 2s linear infinite;
+	}
   }
 }
 
