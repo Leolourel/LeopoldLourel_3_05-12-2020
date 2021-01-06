@@ -92,11 +92,16 @@
 	&:active {
 		//regle au click du boutton //
 		& .buttonblock__price{
-			animation: buttonprice 400ms ease-out forwards;
+			animation: buttonprice 500ms linear forwards;
 		}
 		& .buttonblock__select{
-			animation: buttonselect 600ms ease-out forwards;
+			animation: buttonselect 500ms linear forwards;
 			display: block;
+		}
+		& .fa-check-circle{
+			animation: buttonselectrotate 500ms linear forwards;
+			display: block;
+			line-height: 80px;
 		}
 	}
 	@include ipad {
@@ -112,7 +117,7 @@
 		flex: 1;
 		height: 100%;
 		text-align: start;
-		padding-top: 15px;
+		padding-top: 11px;
 		margin-left: 14px;
 		z-index: 3;
 	}
@@ -125,6 +130,7 @@
 		z-index: 3;
 		margin-top: 14px;
 		margin-right: 14px;
+		font-weight: 700;
 	}
 }
 
@@ -132,12 +138,12 @@
 	position: absolute;
 	right: -11px;
 	height: 90px;
-	line-height: 100px;
+	line-height: 90px;
 	background-color: $color-tertiary;
 	z-index: 2;
 	display: none;
 	width: 90px;
-	top:-10px ;
+	top:-6px ;
 }
 
 
