@@ -228,7 +228,7 @@
 .buttonblock:active .fa-check-circle {
   animation: buttonselectrotate 500ms linear forwards;
   display: block;
-  line-height: 80px;
+  line-height: 79px;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock {
