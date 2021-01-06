@@ -74,11 +74,11 @@
 
 @keyframes buttonselect {
   from{
-	transform: translateX(0) rotate(0);
+	transform: translateX(120px) rotate(0);
 	
   }
   to{
-	transform: translateX(-1px) rotate(720deg);
+	transform: translateX(-1px) rotate(360deg);
 	
   }
 }
@@ -86,8 +86,10 @@
 @keyframes buttonprice {
   from{
 	transform: translateX(0);
+    margin-right: 14px;
   }
   to{
-	transform: translateX(-50px);
+	transform: translateX(-70px);
+    margin-right: 0px;
   }
 }

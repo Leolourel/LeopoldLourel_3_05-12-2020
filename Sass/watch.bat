@@ -1,1 +1,1 @@
-sass/ohmyfood.scss ../Css/ohmyfood.css --watch
+Sass/ohmyfood.scss ./Css/ohmyfood.css --watch

@@ -61,18 +61,20 @@
 }
 @keyframes buttonselect {
   from {
-    transform: translateX(0) rotate(0);
+    transform: translateX(120px) rotate(0);
   }
   to {
-    transform: translateX(-1px) rotate(720deg);
+    transform: translateX(-1px) rotate(360deg);
   }
 }
 @keyframes buttonprice {
   from {
     transform: translateX(0);
+    margin-right: 14px;
   }
   to {
-    transform: translateX(-50px);
+    transform: translateX(-70px);
+    margin-right: 0px;
   }
 }
 .buttonfonction {
@@ -209,10 +211,10 @@
   z-index: 3;
 }
 .buttonblock:active .buttonblock__price {
-  animation: buttonprice 2s linear forwards;
+  animation: buttonprice 400ms ease-out forwards;
 }
 .buttonblock:active .buttonblock__select {
-  animation: buttonselect 2s linear forwards;
+  animation: buttonselect 600ms ease-out forwards;
   display: block;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -224,32 +226,34 @@
   outline: none;
 }
 .buttonblock__content {
-  background-color: #99E2D0;
+  background-color: white;
   flex: 1;
   height: 100%;
   text-align: start;
-  padding-top: 10px;
+  padding-top: 15px;
   margin-left: 14px;
   z-index: 3;
 }
 .buttonblock__price {
-  background-color: #9356DC;
   width: 60px;
-  height: 100%;
+  height: 60%;
   text-align: center;
   line-height: 70px;
   z-index: 3;
+  margin-top: 14px;
+  margin-right: 14px;
 }
 
 .buttonblock__select {
   position: absolute;
-  right: -13px;
-  height: 80px;
-  line-height: 80px;
-  background-color: blue;
+  right: -11px;
+  height: 90px;
+  line-height: 100px;
+  background-color: #99E2D0;
   z-index: 2;
   display: none;
-  width: 80px;
+  width: 90px;
+  top: -10px;
 }
 
 .buttonblock__title {
@@ -877,6 +881,11 @@ h1 {
 
 span {
   font-weight: bold;
+}
+
+.fa-check-circle {
+  font-size: 1.4rem;
+  color: white;
 }
 
 body,
