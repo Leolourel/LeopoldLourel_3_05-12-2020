@@ -58,6 +58,7 @@
       <workItem from="1608282230402" duration="50193000" />
       <workItem from="1609857348195" duration="8717000" />
       <workItem from="1609944814357" duration="13377000" />
+      <workItem from="1610035294327" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="changement d'éditeur, passage sur webstorm">
       <created>1608282387409</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610035183033</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Commit unversioned files">
+      <created>1610035421874</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610035421875</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +229,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="ohmyfood1" />
                       </list>
                     </value>
                   </entry>
@@ -255,6 +263,7 @@
     <MESSAGE value="Essaie 3eme animation sur blockcontent pour ellipsis correct" />
     <MESSAGE value="modification du footer remplacement de l'image par text" />
     <MESSAGE value="Projet terminé commit pour merge vers master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projet terminé commit pour merge vers master" />
+    <MESSAGE value="Commit unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit unversioned files" />
   </component>
 </project>
