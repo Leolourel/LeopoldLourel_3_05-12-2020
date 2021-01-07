@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="commit avant refonte du code animation boutton select" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ohmyfood1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lp7Yt1pcqWzpt0gUxvR2N4palw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="" />
+      <created>1608282229296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608282229296</updated>
+      <workItem from="1608282230402" duration="50193000" />
+      <workItem from="1609857348195" duration="8717000" />
+      <workItem from="1609944814357" duration="13377000" />
+    </task>
+    <task id="LOCAL-00001" summary="changement d'éditeur, passage sur webstorm">
+      <created>1608282387409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608282387409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation version ipad fini">
+      <created>1608288121202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288121202</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit avant display none fonctionnement version desktop">
+      <created>1608289855360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289855360</updated>
+    </task>
+    <task id="LOCAL-00004" summary="realisation footer header et homepage media desktop">
+      <created>1608292914893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608292914893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit avant essai animation heartfontawesome">
+      <created>1608651498941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608651498941</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit avant essai animation heartfontawesome double">
+      <created>1608658897560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608658897560</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit avant modif animation menu nth child">
+      <created>1608739783296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608739783296</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajout de l'animation heart sur toutes les pages">
+      <created>1609145991202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609145991203</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fin de la revu html, manque animation dont loading spinner et animation carte menu">
+      <created>1609147418836</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609147418836</updated>
+    </task>
+    <task id="LOCAL-00010" summary="loading spinner fait, manque le css pour le style et commit avant modif button structure html et css pour l'animation menu">
+      <created>1609262642953</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609262642953</updated>
+    </task>
+    <task id="LOCAL-00011" summary="premiere tentative d'animation menu block">
+      <created>1609265783922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609265783922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit avant refonte du code animation boutton select">
+      <created>1609856512839</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609856512839</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit apres rdv patxi, fixe pb scss et mise en forme animation menu, size et zindex">
+      <created>1609872312567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609872312567</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit avant essaie add 3eme animation rotate pour menu">
+      <created>1609946752465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609946752465</updated>
+    </task>
+    <task id="LOCAL-00015" summary="animation menu fini, refonte du code html pour tous les buttons">
+      <created>1609947834956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609947834956</updated>
+    </task>
+    <task id="LOCAL-00016" summary="animation menu fini, refonte du code html pour tous les buttons">
+      <created>1609948135540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609948135540</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Commit avant refonte scss buttonblocktext, refonte html button pas fini">
+      <created>1609949537239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609949537239</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Essaie 3eme animation sur blockcontent pour ellipsis correct">
+      <created>1610030355806</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610030355806</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modification du footer remplacement de l'image par text">
+      <created>1610034262666</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610034262666</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Projet terminé commit pour merge vers master">
+      <created>1610035183033</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610035183033</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="changement d'éditeur, passage sur webstorm" />
+    <MESSAGE value="Creation version ipad fini" />
+    <MESSAGE value="commit avant display none fonctionnement version desktop" />
+    <MESSAGE value="realisation footer header et homepage media desktop" />
+    <MESSAGE value="commit avant essai animation heartfontawesome" />
+    <MESSAGE value="commit avant essai animation heartfontawesome double" />
+    <MESSAGE value="commit avant modif animation menu nth child" />
+    <MESSAGE value="Ajout de l'animation heart sur toutes les pages" />
+    <MESSAGE value="fin de la revu html, manque animation dont loading spinner et animation carte menu" />
+    <MESSAGE value="loading spinner fait, manque le css pour le style et commit avant modif button structure html et css pour l'animation menu" />
+    <MESSAGE value="premiere tentative d'animation menu block" />
+    <MESSAGE value="commit avant refonte du code animation boutton select" />
+    <MESSAGE value="commit apres rdv patxi, fixe pb scss et mise en forme animation menu, size et zindex" />
+    <MESSAGE value="commit avant essaie add 3eme animation rotate pour menu" />
+    <MESSAGE value="animation menu fini, refonte du code html pour tous les buttons" />
+    <MESSAGE value="Commit avant refonte scss buttonblocktext, refonte html button pas fini" />
+    <MESSAGE value="Essaie 3eme animation sur blockcontent pour ellipsis correct" />
+    <MESSAGE value="modification du footer remplacement de l'image par text" />
+    <MESSAGE value="Projet terminé commit pour merge vers master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projet terminé commit pour merge vers master" />
+  </component>
+</project>
