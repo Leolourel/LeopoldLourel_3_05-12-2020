@@ -1,0 +1,99 @@
+@include imgmenu; //Mixin imglenu//
+
+.sectionmenu2 {
+  @include sectionmenu;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-family: "Shrikhand", "Roboto", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  @include ipad {
+	font-size: 1.9rem;
+  }
+}
+
+.containerlike {
+  position: relative;
+}
+
+.heartawe { // appliquer a toutes les pages et réussir l'animation //
+
+  &:hover + .heartawe--full {
+	opacity: 1;
+	transform: scaleY(1);
+
+  }
+
+  &--full {
+	position: absolute;
+	left: 0;
+	top: 4px;
+	background: linear-gradient(180deg, $color-primary, #ec87e0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	opacity: 0;
+	transform-origin: 0% 50%;
+	transform: scaleY(0);
+	transition-property: all;
+	transition-delay: 3000ms;
+	pointer-events: none;
+
+	&.far {
+	  font-weight: 600;
+	}
+  }
+}
+
+.heartawe:hover {
+  @include heart;
+}
+
+//Menu block//
+
+.menublock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30%;
+  width: 86%;
+
+  h2 {
+	align-self: flex-start;
+	font-size: 1.4rem;
+	font-weight: 300;
+	margin-top: 35px;
+	@include ipad {
+	  font-size: 1.6rem;
+	}
+
+	em {
+	  font-style: normal;
+	  text-decoration: underline;
+	  text-underline-position: under;
+	  text-decoration-color: $color-tertiary;
+	  text-decoration-thickness: 0.15rem;
+	}
+  }
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+span {
+  font-weight: bold;
+}
+
+.fa-check-circle {
+	font-size: 1.4rem;
+	color: white;
+	text-align: center;
+	height: 80px;
+}

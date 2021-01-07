@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--Effet de rognage en css (overflow: ...)-->
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<script src="jquery-2.1.4.js"></script>
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+	<link href="../Css/ohmyfood.css" rel="stylesheet">
+	<script crossorigin="anonymous" src="https://kit.fontawesome.com/f92a7551f7.js"></script>
+	
+	<title>ohmyfood</title>
+	
+	<!-- Open Graph data -->
+	
+	<meta content="Projet3" property="og:title"/>
+	<meta content="website" property="og:type"/>
+	<meta content="http://www.example.com/" property="og:url"/>
+	<meta content="http://example.com/image.jpg" property="og:image"/>
+	<meta content="Plateforme de reservation de restaurant en ligne" property="og:description"/>
+	
+	<!-- Twitter Card data -->
+	<meta content="summary" name="twitter:card">
+	<meta content="@publisher_handle" name="twitter:site">
+	<meta content="Projet3" name="twitter:title">
+	<meta content="Plateforme de reservation de restaurant en ligne" name="twitter:description">
+	<meta content="@LeoLourel" name="twitter:creator">
+	<!-- Twitter Summary card images must be at least 200x200px -->
+	<meta content="http://www.example.com/image.jpg" name="twitter:image">
+
+</head>
+
+<body>
+<div class="spinner"><i class="fas fa-spinner spinner__icon"></i></div>
+<div class="blocpage">
+	<header>
+		<div class="header"><img alt="ohmyfood" class="header__image"
+		                         src="../Doc/Maquettes Ohmyfood/images/logo/ohmyfood.png"></div>
+	</header>
+	<section> <!-- Section 1 explore -->
+		<div class="location">
+			<div class="location__marker">
+				<div class="markerfont">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<p class="location__txt"> Paris, Belleville</p>
+			</div>
+		</div>
+		
+		<div class="explore"><h2>Réservez le menu qui vous convient</h2>
+			<p>Découvrez des restaurant d'exception, <br>
+				séléctionnés par nos soins.</p>
+			<button class="buttonexplore">Explorer nos restaurants</button>
+		</div>
+	</section>
+	<section class="section2"> <!-- Section 2 fonctionnement -->
+		<h2 class="titlefonctionement">Fonctionnement</h2>
+		
+		<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-mobile-alt"></i>
+			<div class="buttonfonction__circle">1</div>
+			Choisissez un restaurant
+		</button>
+		<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-list-ul"></i>
+			<div class="buttonfonction__circle">2</div>
+			Composez votre menu
+		</button>
+		<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-store"></i>
+			<div class="buttonfonction__circle">3</div>
+			Dégustez au restaurant
+		</button>
+	
+	</section>
+	
+	<section class="section2desktop"> <!-- Section 2 fonctionnement -->
+		<h2 class="titlefonctionement">Fonctionnement</h2>
+		<div class="section2buttonflex">
+			<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-mobile-alt"></i>
+				<div class="buttonfonction__circle">1</div>
+				Choisissez un restaurant
+			</button>
+			<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-list-ul"></i>
+				<div class="buttonfonction__circle">2</div>
+				Composez votre menu
+			</button>
+			<button class="buttonfonction"><i class="buttonfonction__fontawe fas fa-store"></i>
+				<div class="buttonfonction__circle">3</div>
+				Dégustez au restaurant
+			</button>
+		</div>
+	</section>
+	<section class="section3">  <!-- Section 3 restaurant -->
+		<!--Section mise en page des 4restaurants -->
+		<h2>Restaurants</h2>
+		
+		<div class="restaurantblock"><a href="palette-du-gout.html">
+			<!--Lien vers page palettedugoût.html-->
+			<figure class="restaurantblock__img"><img alt="La palette du goût"
+			                                          class="restaurantblock__img2"
+			                                          src="../Doc/Maquettes Ohmyfood/images/restaurants/palettedugout.jpg">
+			</figure>
+			<div class="restaurantblock__nouveau"><p>Nouveau</p></div>
+			<div class="blocktitle"><h3> La palette du goût</h3>
+				<p> Ménilmontant</p>
+				<i class="blocktitle__heart far fa-heart"></i></div>
+		</a>
+		</div>
+		<div class="restaurantblock"><a href="note-enchantée.html">
+			<!--Lien vers page palettedugoût.html-->
+			<figure class="restaurantblock__img"><img alt="La note enchantée"
+			                                          class="restaurantblock__img2"
+			                                          src="../Doc/Maquettes Ohmyfood/images/restaurants/noteenchantée.jpg">
+			</figure>
+			<div class="restaurantblock__nouveau"><p>Nouveau</p></div>
+			<div class="blocktitle"><h3> La note-enchantée</h3>
+				<p> Charonne</p>
+				<i class="blocktitle__heart far fa-heart"></i></div>
+		</a>
+		</div>
+		<div class="restaurantblock"><a href="a-la-francaise.html">
+			
+			<figure class="restaurantblock__img"><img alt="A la a-la-francaise"
+			                                          class="restaurantblock__img2"
+			                                          src="../Doc/Maquettes Ohmyfood/images/restaurants/francaise.jpg">
+			</figure>
+			<div class="blocktitle"><h3>À la francaise</h3>
+				<p>Cité rouge</p>
+				<i class="blocktitle__heart far fa-heart"></i></div>
+		</a>
+		</div>
+		<div class="restaurantblock"><a href="delice-des-sens.html">
+			
+			<figure class="restaurantblock__img"><img alt="Le delice des sens"
+			                                          class="restaurantblock__img2"
+			                                          src="../Doc/Maquettes Ohmyfood/images/restaurants/délicedessens.jpg">
+			</figure>
+			<div class="blocktitle"><h3> Le délice des sens</h3>
+				<p> Folie-Méricourt</p>
+				<i class="blocktitle__heart far fa-heart"></i></div>
+		</a>
+		</div>
+	</section>
+	<footer>
+		<!--Footer identique sur toutes les pages -->
+		<img alt="ohmyfood" class="imgfooter" src="../Doc/Maquettes Ohmyfood/images/logo/ohmyfood2.png">
+		<ul>
+			<li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
+			<li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
+			<li><a href="#">Mention légales</a></li>
+			<li><a href="mailto:ohmyfood@ohmyfood.com">Contact</a></li>
+		</ul>
+	</footer>
+</div>
+
+</body>
+
+</html>
