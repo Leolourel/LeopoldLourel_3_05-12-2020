@@ -21,8 +21,12 @@
 		font-size: 1.4rem;
 		font-weight: 400;
 	}
-	&:hover{
+	&:hover{//boutton + icone hover ensemble//
 		background-color: #f5edff;
+		& .buttonfonction__fontawe{
+			color:$color-primary;
+			border: none;
+		}
 	}
 	&:focus{
 		outline: none;
@@ -34,11 +38,6 @@
 		color: #7e7e7e;
 		@include ipad{
 			font-size: 1.4rem;
-		}
-		&:hover{
-			color:$color-primary;
-			border: none;
-
 		}
 	}
 	.buttonfonction__circle{
@@ -93,6 +92,7 @@
 		//regle au click du boutton //
 		& .buttonblock__price{
 			animation: buttonprice 500ms linear forwards;
+			display: block;
 		}
 		& .buttonblock__select{
 			animation: buttonselect 500ms linear forwards;
@@ -134,30 +134,37 @@
 	}
 }
 
-.buttonblock__select{
-	position: absolute;
-	right: -11px;
-	height: 90px;
-	line-height: 90px;
-	background-color: $color-tertiary;
-	z-index: 2;
-	display: none;
-	width: 90px;
-	top:-6px ;
-}
-
-
-.buttonblock__title {
-	font-size: 1rem;
-	font-weight: 600;
-	@include ipad {
-		font-size: 1.2rem;
+.buttonblock{
+	&__select{
+		position: absolute;
+		right: -11px;
+		height: 90px;
+		line-height: 90px;
+		background-color: $color-tertiary;
+		z-index: 2;
+		display: none;
+		width: 90px;
+		top:-6px ;
+	}
+	&__title{
+		font-size: 1rem;
+		font-weight: 600;
+		@include ipad {
+			font-size: 1.2rem;
+		}
+	}
+	&__text{
+		margin-top: 8px;
+	}
+	&__textweight{
+		font-weight: 600;
 	}
 }
-.buttonblock__text{
-	margin-top: 8px;
 
-}
+
+
+
+
 //Button order all menu pages avec mixin button//
 .buttonorder{
 	@include button ($margintop:50px);

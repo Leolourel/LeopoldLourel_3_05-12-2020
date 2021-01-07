@@ -110,6 +110,10 @@
 .buttonfonction:hover {
   background-color: #f5edff;
 }
+.buttonfonction:hover .buttonfonction__fontawe {
+  color: #9356DC;
+  border: none;
+}
 .buttonfonction:focus {
   outline: none;
 }
@@ -123,10 +127,6 @@
   .buttonfonction .buttonfonction__fontawe {
     font-size: 1.4rem;
   }
-}
-.buttonfonction .buttonfonction__fontawe:hover {
-  color: #9356DC;
-  border: none;
 }
 .buttonfonction .buttonfonction__circle {
   border-radius: 50%;
@@ -220,6 +220,7 @@
 }
 .buttonblock:active .buttonblock__price {
   animation: buttonprice 500ms linear forwards;
+  display: block;
 }
 .buttonblock:active .buttonblock__select {
   animation: buttonselect 500ms linear forwards;
@@ -269,7 +270,6 @@
   width: 90px;
   top: -6px;
 }
-
 .buttonblock__title {
   font-size: 1rem;
   font-weight: 600;
@@ -279,9 +279,11 @@
     font-size: 1.2rem;
   }
 }
-
 .buttonblock__text {
   margin-top: 8px;
+}
+.buttonblock__textweight {
+  font-weight: 600;
 }
 
 .buttonorder {
