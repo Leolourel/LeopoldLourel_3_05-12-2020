@@ -31,11 +31,17 @@ footer {
   height: 22px;
   margin-top: 27px;
   margin-left: 27px;
-  @include ipad{
+  @include ipad {
     width: 130px;
     height: 35px;
+    margin-left: 0;
   }
+    @include desktop{
+      margin-left: 0;
+    }
 }
+
+
 
 ul {
   list-style: none;

@@ -88,7 +88,8 @@
 	overflow: hidden;
 	z-index: 3;
 
-	&:active {
+	&:focus {
+		outline: none;
 		//regle au click du boutton //
 		& .buttonblock__price{
 			animation: buttonprice 500ms linear forwards;
@@ -103,13 +104,15 @@
 			display: block;
 			line-height: 79px;
 		}
+		& .buttonblock__text{
+			animation: buttontexttitle 500ms linear forwards;
+		}
+		& .buttonblock__title{
+			animation: buttontexttitle 500ms linear forwards;
+		}
 	}
 	@include ipad {
 		margin-top: 25px;
-	}
-
-	&:focus {
-		outline: none;
 	}
 
 	&__content {
@@ -117,7 +120,7 @@
 		flex: 1;
 		height: 100%;
 		text-align: start;
-		padding-top: 11px;
+		padding-top: 14px;
 		margin-left: 14px;
 		z-index: 3;
 	}
@@ -137,14 +140,14 @@
 .buttonblock{
 	&__select{
 		position: absolute;
-		right: -11px;
+		right: -15px;
 		height: 90px;
 		line-height: 90px;
 		background-color: $color-tertiary;
 		z-index: 2;
 		display: none;
 		width: 90px;
-		top:-6px ;
+		top:-2px ;
 	}
 	&__title{
 		font-size: 1rem;

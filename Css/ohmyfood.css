@@ -38,6 +38,10 @@
 .spinner__icon {
   font-size: 3rem;
   animation: spinner-rotate 2s linear infinite;
+  background: -webkit-linear-gradient(-10deg, #9356DC, #ec87e0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @keyframes spinner-rotate {
@@ -83,6 +87,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes buttontexttitle {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 40px;
   }
 }
 .buttonfonction {
@@ -166,8 +178,8 @@
   outline: none;
 }
 .buttonexplore:hover {
-  box-shadow: 8px 8px 4px #e5e5e5;
-  filter: brightness(110%);
+  box-shadow: 8px 8px 4px #8d8a8a;
+  filter: brightness(115%);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -198,8 +210,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonexplore:hover {
-    box-shadow: 8px 8px 4px #e5e5e5;
-    filter: brightness(110%);
+    box-shadow: 8px 8px 4px #8d8a8a;
+    filter: brightness(115%);
   }
 }
 .buttonblock {
@@ -218,33 +230,39 @@
   overflow: hidden;
   z-index: 3;
 }
-.buttonblock:active .buttonblock__price {
+.buttonblock:focus {
+  outline: none;
+}
+.buttonblock:focus .buttonblock__price {
   animation: buttonprice 500ms linear forwards;
   display: block;
 }
-.buttonblock:active .buttonblock__select {
+.buttonblock:focus .buttonblock__select {
   animation: buttonselect 500ms linear forwards;
   display: block;
 }
-.buttonblock:active .fa-check-circle {
+.buttonblock:focus .fa-check-circle {
   animation: buttonselectrotate 500ms linear forwards;
   display: block;
   line-height: 79px;
+}
+.buttonblock:focus .buttonblock__text {
+  animation: buttontexttitle 500ms linear forwards;
+}
+.buttonblock:focus .buttonblock__title {
+  animation: buttontexttitle 500ms linear forwards;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock {
     margin-top: 25px;
   }
 }
-.buttonblock:focus {
-  outline: none;
-}
 .buttonblock__content {
   background-color: white;
   flex: 1;
   height: 100%;
   text-align: start;
-  padding-top: 11px;
+  padding-top: 14px;
   margin-left: 14px;
   z-index: 3;
 }
@@ -261,14 +279,14 @@
 
 .buttonblock__select {
   position: absolute;
-  right: -11px;
+  right: -15px;
   height: 90px;
   line-height: 90px;
   background-color: #99E2D0;
   z-index: 2;
   display: none;
   width: 90px;
-  top: -6px;
+  top: -2px;
 }
 .buttonblock__title {
   font-size: 1rem;
@@ -309,8 +327,8 @@
   outline: none;
 }
 .buttonorder:hover {
-  box-shadow: 8px 8px 4px #e5e5e5;
-  filter: brightness(110%);
+  box-shadow: 8px 8px 4px #8d8a8a;
+  filter: brightness(115%);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -341,8 +359,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonorder:hover {
-    box-shadow: 8px 8px 4px #e5e5e5;
-    filter: brightness(110%);
+    box-shadow: 8px 8px 4px #8d8a8a;
+    filter: brightness(115%);
   }
 }
 .header {
@@ -435,6 +453,12 @@ footer a:visited {
   .imgfooter {
     width: 130px;
     height: 35px;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .imgfooter {
+    margin-left: 0;
   }
 }
 
