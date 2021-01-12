@@ -5,10 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/delice-des-sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/delice-des-sens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/note-enchantée.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/note-enchantée.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/ohmyfood.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/ohmyfood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/layout/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass/pages/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/utils/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610464100165</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit avant test animation heart sur home page">
+      <created>1610466252444</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610466252444</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +289,7 @@
     <MESSAGE value="Projet terminé commit pour merge vers master" />
     <MESSAGE value="Commit unversioned files" />
     <MESSAGE value="commit avant test animation heart" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit avant test animation heart" />
+    <MESSAGE value="commit avant test animation heart sur home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit avant test animation heart sur home page" />
   </component>
 </project>

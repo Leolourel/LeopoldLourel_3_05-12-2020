@@ -228,52 +228,41 @@
   font-size: 1rem;
   font-weight: 600;
   position: relative;
-  @include ipad{
-   font-size: 1.4rem;
-	margin: 0;
-	margin-left: 20px;
-	margin-top: 15px;
+  @include ipad {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 15px;
   }
   @include desktop {
-	margin: 0;
-	margin-left: 20px;
-	margin-top: 25px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 25px;
   }
 
   p {
-	font-size: 1rem;
-	margin-top: 5px;
-	font-weight: 300;
-	@include ipad{
-	  font-size: 1.2rem;
-	  margin-top: 15px;
-	}
-	@include desktop{
-	  margin-top: 10px;
-	}
-  }
-
-  .blocktitle__heart {
-	position: absolute;
-	right: 25px;
-	top: 10px;
-	font-size: 1.7rem;
-	font-weight: 100;
-	@include ipad {
-	right:30px ;
-	  top: 20px;
-	  font-size: 2rem;
-
-	}
-
-	&:hover {
-      background: linear-gradient(180deg, $color-primary, #ec87e0);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: heartscale 1s linear forwards;
-
-
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: 300;
+    @include ipad {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+    @include desktop {
+      margin-top: 10px;
     }
   }
+  .containerlike{
+    position: absolute;
+    right: 29px;
+    bottom: 32px;
+  }
+  .heartawe--full{
+    top: 2px;
+    right: 0px;
+  }
 }
+
+
+
 

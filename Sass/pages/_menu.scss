@@ -18,31 +18,44 @@ h1 {
 
 .containerlike {
   position: relative;
+	font-size: 1.7rem;
+	&:active .heartawe--full,
+	&:hover .heartawe--full
+	{
+		animation: heartscale 1s linear forwards;
+	}
 }
 
 
 .heartawe {
-
-	&--full{
-		position: absolute;
-		top: 4px;
-		left: 0px;
-		z-index: -1;
-		&:active{
-			z-index: 4;
-		}
-	}
+	z-index: 2;
+	position: relative;
 	&:active {
+
+
+		//background: linear-gradient(180deg, $color-primary, #ec87e0);
+		//-webkit-background-clip: text;
+		//-webkit-text-fill-color: transparent;
+		//animation: heartscale 1s linear forwards;
+
+	}
+	&--full{
 		&.far {
 			font-weight: 600;
 		}
-
+		position: absolute;
+		top: 4px;
+		left: 0px;
 		background: linear-gradient(180deg, $color-primary, #ec87e0);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		animation: heartscale 1s linear forwards;
-		z-index: 2;
+		z-index: 1;
+		transform: scale(0);
+		//&:active{
+		//	z-index: 4;
+		//}
 	}
+
 }
 
 //Menu block//

@@ -789,25 +789,14 @@ ul li {
     margin-top: 10px;
   }
 }
-.blocktitle .blocktitle__heart {
+.blocktitle .containerlike {
   position: absolute;
-  right: 25px;
-  top: 10px;
-  font-size: 1.7rem;
-  font-weight: 100;
+  right: 29px;
+  bottom: 32px;
 }
-@media screen and (min-width: 768px) and (max-width: 1025px) {
-  .blocktitle .blocktitle__heart {
-    right: 30px;
-    top: 20px;
-    font-size: 2rem;
-  }
-}
-.blocktitle .blocktitle__heart:hover {
-  background: linear-gradient(180deg, #9356DC, #ec87e0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: heartscale 1s linear forwards;
+.blocktitle .heartawe--full {
+  top: 2px;
+  right: 0px;
 }
 
 .imgmenu {
@@ -867,25 +856,27 @@ h1 {
 
 .containerlike {
   position: relative;
+  font-size: 1.7rem;
+}
+.containerlike:active .heartawe--full, .containerlike:hover .heartawe--full {
+  animation: heartscale 1s linear forwards;
 }
 
+.heartawe {
+  z-index: 2;
+  position: relative;
+}
 .heartawe--full {
   position: absolute;
   top: 4px;
   left: 0px;
-  z-index: -1;
-}
-.heartawe--full:active {
-  z-index: 4;
-}
-.heartawe:active {
   background: linear-gradient(180deg, #9356DC, #ec87e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: heartscale 1s linear forwards;
-  z-index: 2;
+  z-index: 1;
+  transform: scale(0);
 }
-.heartawe:active.far {
+.heartawe--full.far {
   font-weight: 600;
 }
 
