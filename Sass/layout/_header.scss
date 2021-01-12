@@ -17,16 +17,13 @@
   }
 
   .header__image {
-    width: 50%;
-    height: 22px;
+    height: 26px;
     @include ipad{
-      width: 25%;
-      height: 20px;
+      height: 45px;
       margin-right: 20px;
     }
     @include desktop{
-      width: 20%;
-      height: 20px;
+      height: 45px;
       margin-right: 20px;
     }
   }
