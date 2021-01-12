@@ -92,11 +92,3 @@
   }
 }
 
-//Heart font awesome hover linear gradient //
-@mixin heart {
-  background: linear-gradient(180deg, $color-primary, #ec87e0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-
-}

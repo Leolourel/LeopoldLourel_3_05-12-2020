@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="commit avant refonte du code animation boutton select">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/pages/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/utils/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ohmyfood1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610035421875</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit avant test animation heart">
+      <created>1610464100165</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610464100165</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="ohmyfood1" />
+                        <option value="ohmyfood2" />
                       </list>
                     </value>
                   </entry>
@@ -267,6 +279,7 @@
     <MESSAGE value="modification du footer remplacement de l'image par text" />
     <MESSAGE value="Projet terminé commit pour merge vers master" />
     <MESSAGE value="Commit unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit unversioned files" />
+    <MESSAGE value="commit avant test animation heart" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit avant test animation heart" />
   </component>
 </project>

@@ -20,36 +20,29 @@ h1 {
   position: relative;
 }
 
-.heartawe { // appliquer a toutes les pages et réussir l'animation //
 
-  &:hover + .heartawe--full {
-	opacity: 1;
-	transform: scaleY(1);
+.heartawe {
 
-  }
-
-  &--full {
-	position: absolute;
-	left: 0;
-	top: 4px;
-	background: linear-gradient(180deg, $color-primary, #ec87e0);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	opacity: 0;
-	transform-origin: 0% 50%;
-	transform: scaleY(0);
-	transition-property: all;
-	transition-delay: 3000ms;
-	pointer-events: none;
-
-	&.far {
-	  font-weight: 600;
+	&--full{
+		position: absolute;
+		top: 4px;
+		left: 0px;
+		z-index: -1;
+		&:active{
+			z-index: 4;
+		}
 	}
-  }
-}
+	&:active {
+		&.far {
+			font-weight: 600;
+		}
 
-.heartawe:hover {
-  @include heart;
+		background: linear-gradient(180deg, $color-primary, #ec87e0);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: heartscale 1s linear forwards;
+		z-index: 2;
+	}
 }
 
 //Menu block//

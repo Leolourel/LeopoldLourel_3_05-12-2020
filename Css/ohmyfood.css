@@ -97,6 +97,14 @@
     margin-right: 40px;
   }
 }
+@keyframes heartscale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .buttonfonction {
   width: 324px;
   height: 75px;
@@ -799,7 +807,7 @@ ul li {
   background: linear-gradient(180deg, #9356DC, #ec87e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  animation: heartscale 1s linear forwards;
 }
 
 .imgmenu {
@@ -861,32 +869,23 @@ h1 {
   position: relative;
 }
 
-.heartawe:hover + .heartawe--full {
-  opacity: 1;
-  transform: scaleY(1);
-}
 .heartawe--full {
   position: absolute;
-  left: 0;
   top: 4px;
+  left: 0px;
+  z-index: -1;
+}
+.heartawe--full:active {
+  z-index: 4;
+}
+.heartawe:active {
   background: linear-gradient(180deg, #9356DC, #ec87e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0;
-  transform-origin: 0% 50%;
-  transform: scaleY(0);
-  transition-property: all;
-  transition-delay: 3000ms;
-  pointer-events: none;
+  animation: heartscale 1s linear forwards;
+  z-index: 2;
 }
-.heartawe--full.far {
-  font-weight: 600;
-}
-
-.heartawe:hover {
-  background: linear-gradient(180deg, #9356DC, #ec87e0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.heartawe:active.far {
   font-weight: 600;
 }
 
