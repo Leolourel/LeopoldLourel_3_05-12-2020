@@ -3,26 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="commit avant refonte du code animation boutton select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/Oh my food - Textes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/Oh my food - Textes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/logo/ohmyfood.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/logo/ohmyfood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/logo/ohmyfood2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/logo/ohmyfood2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/logo/ohmyfood@2x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/logo/ohmyfood@2x.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/restaurants/délicedessens.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/restaurants/délicedessens.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/restaurants/francaise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/restaurants/francaise.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/restaurants/noteenchantée.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/restaurants/noteenchantée.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/images/restaurants/palettedugout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/images/restaurants/palettedugout.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Accueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Accueil.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Animations/Animation - Page Menu - Apparition progressive.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Animations/Animation - Page Menu - Apparition progressive.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Animations/Animation - Page Menu - Se╠ülection d_un plat.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Animations/Animation - Page Menu - Se╠ülection d_un plat.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Menu - A╠Ç la franc╠ºaise.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Menu - A╠Ç la franc╠ºaise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Menu - La note enchante╠üe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Menu - La note enchante╠üe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Menu - La palette du gou╠ét.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Menu - La palette du gou╠ét.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/Maquettes Ohmyfood/maquettes/Menu - Le de╠ülice des sens.png" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/MaquettesOhmyfood/maquettes/Menu - Le de╠ülice des sens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Html/a-la-francaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/a-la-francaise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Html/delice-des-sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/delice-des-sens.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Html/note-enchantée.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/note-enchantée.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/ohmyfood.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/ohmyfood.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Html/palette-du-gout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/palette-du-gout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/components/_button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610475223062</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Html validator ok pour page d'accueil">
+      <created>1610551504002</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610551504002</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +304,7 @@
     <MESSAGE value="commit avant test animation heart" />
     <MESSAGE value="commit avant test animation heart sur home page" />
     <MESSAGE value="animation heart terminé, finir html validator avant presantation" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation heart terminé, finir html validator avant presantation" />
+    <MESSAGE value="Html validator ok pour page d'accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Html validator ok pour page d'accueil" />
   </component>
 </project>

@@ -299,6 +299,8 @@
 .buttonblock__title {
   font-size: 1rem;
   font-weight: 600;
+  display: block;
+  margin: 0;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock__title {
@@ -306,7 +308,9 @@
   }
 }
 .buttonblock__text {
-  margin-top: 8px;
+  display: block;
+  margin-top: -8px;
+  font-weight: normal;
 }
 .buttonblock__textweight {
   font-weight: 600;
