@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="commit avant refonte du code animation boutton select">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/pages/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/utils/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_mixins.scss" afterDir="false" />
-    </list>
+    <list default="true" id="d18b33b1-6155-4491-b809-b20bef3b805b" name="Default Changelist" comment="commit avant refonte du code animation boutton select" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610554616986</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Projet terminé 2">
+      <created>1610556342958</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556342958</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +271,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="ohmyfood2" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -287,7 +286,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement d'éditeur, passage sur webstorm" />
     <MESSAGE value="Creation version ipad fini" />
     <MESSAGE value="commit avant display none fonctionnement version desktop" />
     <MESSAGE value="realisation footer header et homepage media desktop" />
@@ -312,6 +310,7 @@
     <MESSAGE value="animation heart terminé, finir html validator avant presantation" />
     <MESSAGE value="Html validator ok pour page d'accueil" />
     <MESSAGE value="Html validator ok pour toutes les pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Html validator ok pour toutes les pages" />
+    <MESSAGE value="Projet terminé 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projet terminé 2" />
   </component>
 </project>
