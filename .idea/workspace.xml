@@ -5,11 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/a-la-francaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/a-la-francaise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/delice-des-sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/delice-des-sens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/note-enchantée.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/note-enchantée.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/palette-du-gout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/palette-du-gout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/pages/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/utils/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sass/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/utils/_mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610551504002</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Html validator ok pour toutes les pages">
+      <created>1610554616986</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610554616986</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +311,7 @@
     <MESSAGE value="commit avant test animation heart sur home page" />
     <MESSAGE value="animation heart terminé, finir html validator avant presantation" />
     <MESSAGE value="Html validator ok pour page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Html validator ok pour page d'accueil" />
+    <MESSAGE value="Html validator ok pour toutes les pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Html validator ok pour toutes les pages" />
   </component>
 </project>

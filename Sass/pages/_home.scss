@@ -255,7 +255,15 @@
   .containerlike{
     position: absolute;
     right: 29px;
-    bottom: 32px;
+    bottom: 14px;
+    @include ipad {
+      right: 29px;
+      bottom: 32px;
+    }
+    @include desktop {
+      right: 29px;
+      bottom: 20px;
+    }
   }
   .heartawe--full{
     top: 2px;

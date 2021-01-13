@@ -39,7 +39,6 @@
   font-size: 3rem;
   animation: spinner-rotate 2s linear infinite;
   background: -webkit-linear-gradient(-10deg, #9356DC, #ec87e0);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -796,7 +795,19 @@ ul li {
 .blocktitle .containerlike {
   position: absolute;
   right: 29px;
-  bottom: 32px;
+  bottom: 14px;
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .blocktitle .containerlike {
+    right: 29px;
+    bottom: 32px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .blocktitle .containerlike {
+    right: 29px;
+    bottom: 20px;
+  }
 }
 .blocktitle .heartawe--full {
   top: 2px;
@@ -908,7 +919,7 @@ h1 {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: #99E2D0;
-  text-decoration-thickness: 0.15rem;
+  text-decoration-thickness: 0.15em;
 }
 
 .ellipsis {
