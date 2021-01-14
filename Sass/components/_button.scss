@@ -15,6 +15,9 @@
 	font-weight: 600;
 	box-shadow: $boxshadow;
 	cursor: pointer;
+	transform: scale(1);
+	transition-duration: 500ms;
+	transition-property: transform;
 	@include ipad{
 		width: 400px;
 		height: 85px;
@@ -23,9 +26,11 @@
 	}
 	&:hover{//boutton + icone hover ensemble//
 		background-color: #f5edff;
+		transform: scale(1.05);
 		& .buttonfonction__fontawe{
 			color:$color-primary;
 			border: none;
+
 		}
 	}
 	&:focus{

@@ -157,24 +157,33 @@
   position: relative;
   box-shadow: $boxshadow;
   margin-top: 22px;
+  transform: scale(1);
+  transition-duration: 500ms;
+  transition-property: transform;
   @include ipad {
-	height: 300px;
-	width: 450px;
-	margin-bottom: 30px;
+    height: 300px;
+    width: 450px;
+    margin-bottom: 30px;
   }
-  @include desktop{
-	width: 540px;
-	height: 350px;
-	margin-top: 50px;
+  @include desktop {
+    width: 540px;
+    height: 350px;
+    margin-top: 50px;
   }
-  a {
-	text-decoration: none;
 
-	&:visited {
-	  text-decoration: none;
-	  color: black;
-	}
+  a {
+    text-decoration: none;
+
+    &:visited {
+      text-decoration: none;
+      color: black;
+    }
   }
+    &:hover {
+      transform: scale(1.03);
+    }
+
+}
 
   .restaurantblock__img {
 	margin: 0;
@@ -217,7 +226,6 @@
 	}
 
   }
-}
 
 .blocktitle {
   text-decoration: none;
