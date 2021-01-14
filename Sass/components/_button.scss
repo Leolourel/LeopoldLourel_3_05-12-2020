@@ -42,17 +42,35 @@
 	}
 	.buttonfonction__circle{
 		border-radius: 50%;
-		width: 18px;
-		height: 18px;
+		width: 7px;
+		height: 7px;
 		padding: 8px;
-		background:$color-primary;
-		border: 2px solid $color-primary;
-		color:white;
+		background: #9356DC;
+		border: 2px solid #9356DC;
+		color: white;
 		text-align: center;
-		font: 18px "Roboto", sans-serif;
+		font: 14px "Roboto", sans-serif;
 		position: absolute;
-		left: -16px;
-		top: 21px;
+		left: -9px;
+		top: 30px;
+		line-height: 10px;
+		text-align: center;
+		@include desktop{
+			width: 18px;
+			height: 18px;
+			font: 18px "Roboto", sans-serif;
+			left: -16px;
+			top: 21px;
+			line-height: 20px;
+		}
+		@include ipad {
+			width: 18px;
+			height: 18px;
+			font: 18px "Roboto", sans-serif;
+			left: -16px;
+			top: 21px;
+			line-height: 20px;
+		}
 	}
 }
 

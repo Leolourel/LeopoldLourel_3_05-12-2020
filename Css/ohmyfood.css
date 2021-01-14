@@ -149,17 +149,39 @@
 }
 .buttonfonction .buttonfonction__circle {
   border-radius: 50%;
-  width: 18px;
-  height: 18px;
+  width: 7px;
+  height: 7px;
   padding: 8px;
   background: #9356DC;
   border: 2px solid #9356DC;
   color: white;
   text-align: center;
-  font: 18px "Roboto", sans-serif;
+  font: 14px "Roboto", sans-serif;
   position: absolute;
-  left: -16px;
-  top: 21px;
+  left: -9px;
+  top: 30px;
+  line-height: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .buttonfonction .buttonfonction__circle {
+    width: 18px;
+    height: 18px;
+    font: 18px "Roboto", sans-serif;
+    left: -16px;
+    top: 21px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .buttonfonction .buttonfonction__circle {
+    width: 18px;
+    height: 18px;
+    font: 18px "Roboto", sans-serif;
+    left: -16px;
+    top: 21px;
+    line-height: 20px;
+  }
 }
 
 .buttonexplore {
@@ -172,6 +194,9 @@
   border: none;
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 0px;
+  transform: scale(1);
+  transition-duration: 500ms;
+  transition-property: transform;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonexplore {
@@ -187,6 +212,7 @@
 .buttonexplore:hover {
   box-shadow: 8px 8px 4px #8d8a8a;
   filter: brightness(115%);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -200,6 +226,9 @@
     border: none;
     box-shadow: 4px 4px 5px #e5e5e5;
     margin-top: 0px;
+    transform: scale(1);
+    transition-duration: 500ms;
+    transition-property: transform;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) and (min-width: 768px) and (max-width: 1025px) {
@@ -219,6 +248,7 @@
   .buttonexplore:hover {
     box-shadow: 8px 8px 4px #8d8a8a;
     filter: brightness(115%);
+    transform: scale(1.1);
   }
 }
 .buttonblock {
@@ -325,6 +355,9 @@
   border: none;
   box-shadow: 4px 4px 5px #e5e5e5;
   margin-top: 50px;
+  transform: scale(1);
+  transition-duration: 500ms;
+  transition-property: transform;
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonorder {
@@ -340,6 +373,7 @@
 .buttonorder:hover {
   box-shadow: 8px 8px 4px #8d8a8a;
   filter: brightness(115%);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
@@ -353,6 +387,9 @@
     border: none;
     box-shadow: 4px 4px 5px #e5e5e5;
     margin-top: 50px;
+    transform: scale(1);
+    transition-duration: 500ms;
+    transition-property: transform;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) and (min-width: 768px) and (max-width: 1025px) {
@@ -372,6 +409,7 @@
   .buttonorder:hover {
     box-shadow: 8px 8px 4px #8d8a8a;
     filter: brightness(115%);
+    transform: scale(1.1);
   }
 }
 .header {

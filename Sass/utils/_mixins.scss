@@ -76,6 +76,9 @@
   border: none;
   box-shadow: $boxshadow;
   margin-top: $margintop;
+  transform: scale(1);
+  transition-duration: 500ms;
+  transition-property: transform;
   @include ipad {
 	height: 65px;
 	width: $width;
@@ -88,6 +91,7 @@
   &:hover {
 	box-shadow: 8px 8px 4px #8d8a8a;
 	filter: brightness(115%);
+    transform: scale(1.10);
 
   }
 }
