@@ -270,9 +270,13 @@
   padding: 0;
   overflow: hidden;
   z-index: 3;
+  transform: scale(1);
+  transition-duration: 500ms;
+  transition-property: transform;
 }
 .buttonblock:focus {
   outline: none;
+  transform: scale(1.02);
 }
 .buttonblock:focus .buttonblock__price {
   animation: buttonprice 500ms linear forwards;
@@ -292,6 +296,9 @@
 }
 .buttonblock:focus .buttonblock__title {
   animation: buttontexttitle 500ms linear forwards;
+}
+.buttonblock:hover {
+  transform: scale(1.02);
 }
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .buttonblock {

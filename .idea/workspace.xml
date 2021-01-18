@@ -5,8 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/ohmyfood.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ohmyfood.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/a-la-francaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/a-la-francaise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/delice-des-sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/delice-des-sens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/note-enchantée.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/note-enchantée.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/ohmyfood.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/ohmyfood.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610644110759</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ajout transition restaurantblock et buttonfonction home page">
+      <created>1610644585852</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610644585852</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +323,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit avant display none fonctionnement version desktop" />
     <MESSAGE value="realisation footer header et homepage media desktop" />
     <MESSAGE value="commit avant essai animation heartfontawesome" />
     <MESSAGE value="commit avant essai animation heartfontawesome double" />
@@ -338,6 +347,7 @@
     <MESSAGE value="Html validator ok pour toutes les pages" />
     <MESSAGE value="Projet terminé 2" />
     <MESSAGE value="ajout transition button order et explore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout transition button order et explore" />
+    <MESSAGE value="ajout transition restaurantblock et buttonfonction home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout transition restaurantblock et buttonfonction home page" />
   </component>
 </project>

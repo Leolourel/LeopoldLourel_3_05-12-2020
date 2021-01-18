@@ -110,9 +110,12 @@
 	padding: 0;
 	overflow: hidden;
 	z-index: 3;
-
+	transform: scale(1);
+	transition-duration: 500ms;
+	transition-property: transform;
 	&:focus {
 		outline: none;
+		transform: scale(1.02);
 		//regle au click du boutton //
 		& .buttonblock__price{
 			animation: buttonprice 500ms linear forwards;
@@ -133,6 +136,9 @@
 		& .buttonblock__title{
 			animation: buttontexttitle 500ms linear forwards;
 		}
+	}
+	&:hover{
+		transform: scale(1.02);
 	}
 	@include ipad {
 		margin-top: 25px;
